@@ -6,7 +6,7 @@
                     <input
                         class="form-control ps-input"
                         type="text"
-                        placeholder="Search for products"
+                        placeholder="Поиск.."
                         v-model="textSearch"
                         @blur="openResult = false"
                         @input="handleSearch()"
