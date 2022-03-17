@@ -5,7 +5,7 @@
                 <i class="icon-cross"></i>
             </button>
             <div>
-                <h2 class="ps-dialog__title">Select language</h2>
+                <h2 class="ps-dialog__title">Выберите язык</h2>
                 <ul class="ps-dialog__list">
                     <li
                         class="language-item"
@@ -36,12 +36,12 @@ export default {
         return {
             dataList: [
                 {
-                    text: 'English',
-                    value: 'English'
+                    text: 'Русский',
+                    value: 'Русский'
                 },
                 {
-                    text: 'Deutsch',
-                    value: 'Deutsch'
+                    text: 'Казакша',
+                    value: 'Казакша'
                 }
             ]
         };

@@ -6,11 +6,11 @@
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <div class="ps-contact__info">
-                            <h2 class="ps-contact__title">How can we help you?</h2>
-                            <p class="ps-contact__text">We are at your disposal 7 days a week!</p>
-                            <h3 class="ps-contact__fax">0020 500 – MYMEDI – 000</h3>
-                            <div class="ps-contact__work">Monday – Friday: 9:00-20:00<br>Saturday: 11:00 – 15:00</div>
-                            <div class="ps-contact__email"><a href="mailto:contact@example.com">contact@example.com</a></div>
+                            <h2 class="ps-contact__title">Как мы можем вам помочь?</h2>
+                            <p class="ps-contact__text">Мы в вашем распоряжении 7 дней в неделю!</p>
+                            <h3 class="ps-contact__fax">Контакты: +7(701)-335-49-09</h3>
+                            <div class="ps-contact__work">Адрес: 040400 Алматинская обл. <br>Енбекшиказахский район<br>с. Рахат ул. Женис 43</div>
+                            <div class="ps-contact__email"><a href="mailto:asia-trade.kz@mail.ru">asia-trade.kz@mail.ru</a></div>
                             <social-icon />
                         </div>
                     </div>
@@ -20,13 +20,13 @@
                 </div>
             </div>
             <div class="ps-form--contact">
-                <h2 class="ps-form__title">Fill up the form if you have any question</h2>
+                <h2 class="ps-form__title">Заполните форму, если у вас есть вопросы</h2>
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <div class="ps-form__group">
                             <v-text-field
                                 class="form-control ps-form__input"
-                                placeholder="Name and Surname"
+                                placeholder="Введите ФИО"
                                 required
                                 rounded
                                 v-model="name"
@@ -40,7 +40,7 @@
                         <div class="ps-form__group">
                             <v-text-field
                                 class="form-control ps-form__input"
-                                placeholder="Your E-mail"
+                                placeholder="Введите  E-mail"
                                 type="email"
                                 v-model="email"
                                 required
@@ -55,7 +55,7 @@
                         <div class="ps-form__group">
                             <v-text-field
                                 class="form-control ps-form__input"
-                                placeholder="Phone"
+                                placeholder="Введите телефон"
                                 rounded
                                 v-model="phone"
                             />
@@ -65,7 +65,7 @@
                         <div class="ps-form__group">
                             <v-textarea
                                 class="form-control ps-form__textarea"
-                                placeholder="Message"
+                                placeholder="Сообщение"
                                 v-model="message"
                                 rounded
                                 rows="3"
@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div class="ps-form__submit">
-                    <button class="ps-btn ps-btn--warning" @click="formSubmit()">Send message</button>
+                    <button class="ps-btn ps-btn--warning" @click="formSubmit()">Отправить сообщение</button>
                 </div>
             </div>
         </div>
@@ -84,7 +84,6 @@
 
 <script>
 import Breadcrumb from '~/components/elements/commons/Breadcrumb';
-import SocialIcon from '~/components/shared/SocialIcon';
 import Instagram from '~/components/partials/homepage/Instagram';
 import { validationMixin } from 'vuelidate';
 import { required, email } from 'vuelidate/lib/validators';
@@ -98,7 +97,6 @@ export default {
     },
     components: {
         Breadcrumb,
-        SocialIcon,
         Instagram
     },
     data() {
@@ -124,14 +122,14 @@ export default {
         nameErrors() {
             const errors = [];
             if (!this.$v.name.$dirty) return errors;
-            !this.$v.name.required && errors.push('Name is required.');
+            !this.$v.name.required && errors.push('Укажите имя');
             return errors;
         },
         emailErrors() {
             const errors = [];
             if (!this.$v.email.$dirty) return errors;
-            !this.$v.email.email && errors.push('Must be valid e-mail');
-            !this.$v.email.required && errors.push('E-mail is required');
+            !this.$v.email.email && errors.push('Должен быть действующий адрес электронной почты');
+            !this.$v.email.required && errors.push('Электронная почта обязательна');
             return errors;
         }
     },

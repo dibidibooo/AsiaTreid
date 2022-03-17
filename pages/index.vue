@@ -20,7 +20,7 @@
                 </div>
                 <category-collection />
                 <latest-product-carousel
-                    title="Latest products"
+                    title="Недавно просмотренные"
                     :dataList="latestProduct"
                 />
                 <div class="container">

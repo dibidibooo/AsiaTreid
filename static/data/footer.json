@@ -1,8 +1,7 @@
 {
     "information": {
         "title": "Information",
-        "items": [
-            {
+        "items": [{
                 "text": "About us",
                 "url": "/about-us"
             },
@@ -26,8 +25,7 @@
     },
     "account": {
         "title": "Account",
-        "items": [
-            {
+        "items": [{
                 "text": "My account",
                 "url": "#"
             },
@@ -51,8 +49,7 @@
     },
     "store": {
         "title": "Store",
-        "items": [
-            {
+        "items": [{
                 "text": "Affiliate",
                 "url": "#"
             },
@@ -65,7 +62,7 @@
                 "url": "#"
             },
             {
-                "text": "Latest products",
+                "text": "Недавно просмотренные",
                 "url": "#"
             },
             {
@@ -76,8 +73,7 @@
     },
     "woundCare": {
         "title": "Wound Care",
-        "items": [
-            {
+        "items": [{
                 "text": "Bandages",
                 "url": "/blog/sidebar-1"
             },
@@ -109,8 +105,7 @@
     },
     "higiene": {
         "title": "Higiene",
-        "items": [
-            {
+        "items": [{
                 "text": "Disposable products",
                 "url": "/blog/sidebar-1"
             },
@@ -142,8 +137,7 @@
     },
     "laboratory": {
         "title": "Laboratory",
-        "items": [
-            {
+        "items": [{
                 "text": "Devices",
                 "url": "/blog/sidebar-1"
             },
@@ -175,8 +169,7 @@
     },
     "tools": {
         "title": "Tools",
-        "items": [
-            {
+        "items": [{
                 "text": "Accessories Tools",
                 "url": "/blog/sidebar-1"
             },
@@ -208,8 +201,7 @@
     },
     "diagnosis": {
         "title": "Diagnosis",
-        "items": [
-            {
+        "items": [{
                 "text": "Biopsy tools",
                 "url": "/blog/sidebar-1"
             },
@@ -241,8 +233,7 @@
     },
     "equipment": {
         "title": "Equipment",
-        "items": [
-            {
+        "items": [{
                 "text": "Blades",
                 "url": "/blog/sidebar-1"
             },

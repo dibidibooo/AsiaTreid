@@ -37,7 +37,7 @@
                         </div>
                     </div>
                     <latest-productCarousel
-                        title="Latest products"
+                        title="Недавно просмотренные"
                         :dataList="latestProduct"
                     />
                 </div>

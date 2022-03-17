@@ -19,7 +19,7 @@
                 <ul class="ps-footer__list">
                     <li><nuxt-link to="/">Bestsellers</nuxt-link></li>
                     <li><nuxt-link to="/">Discount</nuxt-link></li>
-                    <li><nuxt-link to="/">Latest products</nuxt-link></li>
+                    <li><nuxt-link to="/">Недавно просмотренные</nuxt-link></li>
                 </ul>
             </div>
             <div class="col-4 col-md-2">

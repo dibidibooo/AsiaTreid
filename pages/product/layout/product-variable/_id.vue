@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <product-also :dataList="alsoProduct" title="Latest products" />
+        <product-also :dataList="alsoProduct" title="Недавно просмотренные" />
     </div>
 </template>
 
