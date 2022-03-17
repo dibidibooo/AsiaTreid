@@ -3,7 +3,7 @@
         <notification />
         <div class="ps-header__top">
             <div class="container">
-                <div class="ps-header__text">Need help? <strong>0020 500 - MYMEDI - 000</strong></div>
+                <div class="ps-header__text">Контакты <strong>+7(701)-335-49-09</strong></div>
             </div>
         </div>
         <div class="ps-header__middle">
@@ -47,7 +47,7 @@
                         <render-list :list="mainMenu" className="menu" :product="product" />
                     </nav>
                 </div>
-                <div class="ps-navigation__right">Контакты <strong>0020 500 - MYMEDI - 000</strong></div>
+                <div class="ps-navigation__right">Контакты <strong>+7(701)-335-49-09</strong></div>
             </div>
         </div>
     </header>
