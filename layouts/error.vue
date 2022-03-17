@@ -9,27 +9,24 @@
                         <breadcrumb :dataList="breadcrumb" />
                         <div class="ps-page__content">
                             <div class="row">
-                                <div class="col-12 col-md-6 col-lg-5">
+                                <div class="col-12 col-md-6 col-lg-7">
                                     <img
-                                        src="/img/cartoon-doctor.jpg"
-                                        alt="cartoon-doctor"
+                                        src="/img/404.png"
+                                        alt="404"
                                     />
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-7">
-                                    <h1 class="ps-page__name">404</h1>
+                                <div class="col-12 col-md-6 col-lg-5">
                                     <h5>
-                                        This page has been probably moved
-                                        somewhere...
+                                        Эта страница, вероятно, была перемещена...
                                     </h5>
                                     <p>
-                                        Please back to homepage or check our
-                                        offer
+                                        Пожалуйста, вернитесь на главную страницу
                                     </p>
                                     <div>
                                         <nuxt-link
                                             class="ps-btn ps-btn--primary"
                                             to="/"
-                                            >Back to homepage</nuxt-link
+                                            >Вернуться</nuxt-link
                                         >
                                     </div>
                                 </div>
