@@ -2,86 +2,17 @@
     <div class="ps-checkout">
         <div class="container">
             <breadcrumb :dataList="breadcrumb" />
-            <h3 class="ps-checkout__title">Checkout</h3>
+            <h3 class="ps-checkout__title">Проверка заказа</h3>
             <div class="ps-checkout__content" v-if="!success">
-                <div class="ps-checkout__wapper">
-                    <p class="ps-checkout__text">
-                        Returning customer?
-                        <nuxt-link to="/account/my-account"
-                            >Click here to login</nuxt-link
-                        >
-                    </p>
-                    <p class="ps-checkout__text">
-                        Have a coupon?
-                        <nuxt-link to="/shop/shopping-cart"
-                            >Click here to enter your code</nuxt-link
-                        >
-                    </p>
-                </div>
                 <div class="row">
                     <div class="col-12 col-md-8">
                         <div class="ps-checkout__form">
                             <h3 class="ps-checkout__heading">
-                                Billing details
+                                Платежные реквизиты
                             </h3>
                             <div class="row">
                                 <div class="col-12">
                                     <form-billing @submit="formBilling" @validate="formBillingValidate" ref="formBilling" />
-                                </div>
-                                <div class="col-12">
-                                    <div class="ps-checkout__group">
-                                        <div class="form-check">
-                                            <input
-                                                class="form-check-input"
-                                                type="checkbox"
-                                                id="create-account"
-                                                v-model="createAccount"
-                                            />
-                                            <label
-                                                class="form-check-label"
-                                                for="create-account"
-                                                >Create an account?</label
-                                            >
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    :class="['col-12', createAccount ? '' : 'ps-hidden']"
-                                >
-                                    <div class="ps-checkout__group">
-                                        <label
-                                            class="ps-checkout__label ps-label--danger"
-                                            >Create account password *</label
-                                        >
-                                        <v-text-field
-                                            class="form-control ps-input"
-                                            placeholder="Password"
-                                            v-model="password"
-                                            :append-icon="show ? 'mdi-eye' : 'mdi-eye-off'"
-                                            :type="show ? 'text' : 'password'"
-                                            rounded
-                                            @click:append="show = !show"
-                                            :error-messages="passwordErrors"
-                                        ></v-text-field>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="ps-checkout__group">
-                                        <div class="form-check">
-                                            <input
-                                                class="form-check-input"
-                                                type="checkbox"
-                                                id="ship-address"
-                                                v-model="shipAddress"
-                                            />
-                                            <label
-                                                class="form-check-label"
-                                                for="ship-address"
-                                                >Ship to a different
-                                                address?</label
-                                            >
-                                        </div>
-                                    </div>
                                 </div>
                                 <div
                                     :class="['col-12', shipAddress ? '' : 'ps-hidden']"
@@ -91,11 +22,11 @@
                                 <div class="col-12">
                                     <div class="ps-checkout__group">
                                         <label class="ps-checkout__label"
-                                            >Order notes (optional)</label
+                                            >Примечания к заказу (необязательно)</label
                                         >
                                         <v-textarea
                                             class="form-control ps-textarea"
-                                            placeholder="Notes about your order, e.g. special notes for delivery."
+                                            placeholder="Примечания к вашему заказу, пример: специальные примечания для доставки."
                                             v-model="note"
                                             rounded
                                             rows="7"
@@ -107,57 +38,51 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="ps-checkout__order">
-                            <h3 class="ps-checkout__heading">Your order</h3>
+                            <h3 class="ps-checkout__heading">Ваш заказ</h3>
                             <div class="ps-checkout__row">
-                                <div class="ps-title">Product</div>
-                                <div class="ps-title">Subtotal</div>
+                                <div class="ps-title">Товар</div>
+                                <div class="ps-title">Цена</div>
                             </div>
                             <div class="ps-checkout__row ps-product" v-for="product in cartProducts" :key="product.id">
                                 <div class="ps-product__name">{{ product.name }} x <span>{{ productQuantity(product) }}</span></div>
                                 <div class="ps-product__price">${{ productTotal(product) }}</div>
                             </div>
                             <div class="ps-checkout__row">
-                                <div class="ps-title">Subtotal</div>
+                                <div class="ps-title">Цена</div>
                                 <div class="ps-product__price">${{ totalCart }}</div>
                             </div>
                             <div class="ps-checkout__row">
-                                <div class="ps-title">Shipping</div>
+                                <div class="ps-title">Доставка</div>
                                 <div class="ps-checkout__checkbox">
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="freeShip" id="free-ship" value="free" v-model="freeShip">
-                                        <label class="form-check-label" for="free-ship">Free shipping</label>
+                                        <label class="form-check-label" for="free-ship">Самовывоз</label>
                                     </div>
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="freeShip" id="price-ship" value="price" v-model="freeShip">
-                                        <label class="form-check-label" for="price-ship">Local Pickup: <span>$10.00</span></label>
+                                        <label class="form-check-label" for="price-ship">Доставка курьером: <span>1000.00 тг.</span></label>
                                     </div>
                                 </div>
                             </div>
                             <div class="ps-checkout__row">
                                 <div class="ps-title">Total</div>
-                                <div class="ps-product__price">${{totalAllShip}}</div>
+                                <div class="ps-product__price">{{totalAllShip}} тг.</div>
                             </div>
                             <div class="ps-checkout__payment">
                                 <div class="payment-method">
                                     <div class="form-check">
                                         <input class="form-check-input" name="payment" value="payment" type="radio" id="payment" v-model="payment">
-                                        <label class="form-check-label" for="payment">Check payments</label>
+                                        <label class="form-check-label" for="payment">Проверьте правильность введеных данных</label>
                                     </div>
-                                    <p class="ps-note">Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
-                                </div>
-                                <div class="paypal-method">
-                                    <div class="form-check">
-                                        <input class="form-check-input" name="payment" value="paypal" type="radio" id="paypal">
-                                        <label class="form-check-label" for="paypal"> PayPal <img src="/img/AM_mc_vs_ms_ae_UK.png" alt=""><a href="https://www.paypal.com/uk/webapps/mpp/paypal-popup">What is PayPal?</a></label>
-                                    </div>
+                                    <p class="ps-note">Оставьте заявку, проверив введеные данные. И наш менеджер свяжется с вами в ближайшее время.</p>
                                 </div>
                                 <div class="check-faq">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" id="agree-faq" checked>
-                                        <label class="form-check-label" for="agree-faq"> I have read and agree to the website terms and conditions *</label>
+                                        <label class="form-check-label" for="agree-faq">Я прочитал и согласен с условиями сайта *</label>
                                     </div>
                                 </div>
-                                <button class="ps-btn ps-btn--warning" @click="placeOrder()">Place order</button>
+                                <button class="ps-btn ps-btn--warning" @click="placeOrder()">Заказать</button>
                             </div>
                         </div>
                     </div>
@@ -230,7 +155,7 @@ export default {
         totalAllShip() {
             let total = this.totalCart;
             if (this.freeShip == 'price') {
-                total = parseFloat(total) + 10;
+                total = parseFloat(total) + 1000;
             }
             return parseFloat(total).toFixed(2);
         }

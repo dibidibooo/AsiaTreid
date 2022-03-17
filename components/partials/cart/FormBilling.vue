@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12">
             <div class="ps-checkout__group">
-                <label class="ps-checkout__label">Email address *</label>
+                <label class="ps-checkout__label">Email адрес *</label>
                 <v-text-field
                     class="form-control ps-input"
                     type="email"
@@ -17,7 +17,7 @@
         </div>
         <div class="col-12 col-sm-6">
             <div class="ps-checkout__group">
-                <label class="ps-checkout__label">First name *</label>
+                <label class="ps-checkout__label">Имя *</label>
                 <v-text-field
                     class="form-control ps-input"
                     v-model="firstName"
@@ -31,7 +31,7 @@
         </div>
         <div class="col-12 col-sm-6">
             <div class="ps-checkout__group">
-                <label class="ps-checkout__label">Last name *</label>
+                <label class="ps-checkout__label">Фамилия *</label>
                 <v-text-field
                     class="form-control ps-input"
                     v-model="lastName"
@@ -46,7 +46,7 @@
         <div class="col-12">
             <div class="ps-checkout__group">
                 <label class="ps-checkout__label"
-                    >Company name (optional)</label
+                    >Название компании (необязательно)</label
                 >
                 <v-text-field
                     class="form-control ps-input"
@@ -57,10 +57,10 @@
         </div>
         <div class="col-12">
             <div class="ps-checkout__group">
-                <label class="ps-checkout__label">Street address *</label>
+                <label class="ps-checkout__label">Адрес улицы *</label>
                 <v-text-field
                     class="form-control ps-input mb-5"
-                    placeholder="House number and street name"
+                    placeholder="Название улицы/номер дома"
                     v-model="street"
                     required
                     rounded
@@ -70,7 +70,7 @@
                 />
                 <v-text-field
                     class="form-control ps-input"
-                    placeholder="Apartment, suite, unit, etc. (optional)"
+                    placeholder="Квартира / Этаж (необязательно)"
                     v-model="apartment"
                     rounded
                 />
@@ -78,7 +78,7 @@
         </div>
         <div class="col-12 col-md-6">
             <div class="ps-checkout__group">
-                <label class="ps-checkout__label">Town / City *</label>
+                <label class="ps-checkout__label">Город *</label>
                 <v-text-field
                     class="form-control ps-input"
                     v-model="town"
@@ -92,7 +92,7 @@
         </div>
         <div class="col-12 col-md-6">
             <div class="ps-checkout__group">
-                <label class="ps-checkout__label">Postcode *</label>
+                <label class="ps-checkout__label">Почтовый индекс *</label>
                 <v-text-field
                     class="form-control ps-input"
                     v-model="postcode"
@@ -106,7 +106,7 @@
         </div>
         <div class="col-12">
             <div class="ps-checkout__group">
-                <label class="ps-checkout__label">County (optional)</label>
+                <label class="ps-checkout__label">Раойн (необязательно)</label>
                 <v-text-field
                     class="form-control ps-input"
                     v-model="county"
@@ -116,7 +116,7 @@
         </div>
         <div class="col-12">
             <div class="ps-checkout__group">
-                <label class="ps-checkout__label">Phone *</label>
+                <label class="ps-checkout__label">Телефон *</label>
                 <v-text-field
                     class="form-control ps-input"
                     v-model="phone"
@@ -164,8 +164,8 @@ export default {
         emailErrors() {
             const errors = [];
             if (!this.$v.email.$dirty) return errors;
-            !this.$v.email.email && errors.push('Must be valid e-mail');
-            !this.$v.email.required && errors.push('E-mail is required');
+            !this.$v.email.email && errors.push('Должен быть действующий адрес электронной почты');
+            !this.$v.email.required && errors.push('Электронная почта обязательна');
             return errors;
         }
     },
