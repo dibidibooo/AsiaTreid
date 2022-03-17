@@ -1,11 +1,4 @@
 /*
-    Project: My Medi Vue Template
-    Version: 1.0
-    Date Created: 10/05/2021
-    Developed by: nouthemes
-*/
-
-/*
     TABLE OF CONTENT
         1. RESET AND TYPHOGRAPHY
             1.1 typhography
@@ -52,12 +45,15 @@
 @import "utilies/mixin";
 @import "vendor/media_query";
 @import "vendor/bourbon/bourbon";
-
 @import "utilies/settings";
+
 /*1. RESET AND TYPHOGRAPHY */
+
 //1.1 typhography
 @import "base/typhography";
+
 /*2. ELEMENTS */
+
 //2.1 grid
 @import "elements/grid";
 // 2.2 list
@@ -96,6 +92,7 @@
 @import "elements/promo";
 
 /*3. COMPONENTS */
+
 // 3.1 Cart
 @import "components/cart";
 // 3.2 forms
@@ -122,12 +119,15 @@
 @import "components/coming";
 // 3.13 swiper
 @import "components/swiper";
+
 /*4. MODULES */
+
 // 4.1 header
 @import "modules/header";
 // 4.2 footer
 @import "modules/footer";
-/*5. HELPERS */
-@import "elements/helpers";
 
+/*5. HELPERS */
+
+@import "elements/helpers";
 @import "themes/effect";

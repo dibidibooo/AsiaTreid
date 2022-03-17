@@ -3,8 +3,8 @@ export default {
         htmlAttrs: {
             lang: 'en'
         },
-        titleTemplate: 'My Medi Vue Template',
-        title: 'My Medi Vue Template',
+        titleTemplate: 'Asia-treid',
+        title: 'Asia-treid',
         meta: [
             { charset: 'utf-8' },
             {
@@ -14,11 +14,10 @@ export default {
             {
                 hid: 'description',
                 name: 'description',
-                content: 'My Medi Vue Template'
+                content: 'Asia-treid'
             }
         ],
-        link: [
-            {
+        link: [{
                 rel: "icon",
                 type: "image/png",
                 href: "/img/favicon.png"

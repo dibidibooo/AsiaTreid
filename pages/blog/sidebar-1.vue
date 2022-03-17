@@ -2,7 +2,7 @@
     <div class="ps-blog">
         <div class="container">
             <breadcrumb :dataList="breadcrumb" />
-            <h1 class="ps-blog__title">My Medi Blog</h1>
+            <h1 class="ps-blog__title">Asia-treid Blog</h1>
             <div class="ps-blog__content">
                 <div class="row">
                     <div class="col-12 col-sm-9">
@@ -59,7 +59,7 @@ export default {
                 {
                     url: '/blog/sidebar-1',
                     extraClass: 'active',
-                    text: 'My Medi Blog'
+                    text: 'Asia-treid Blog'
                 }
             ],
             products: [],

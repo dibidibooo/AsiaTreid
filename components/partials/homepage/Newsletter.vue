@@ -16,7 +16,7 @@ export default {
     props: {
         title: {
             type: String,
-            default: 'Join our newsletter and get <br>$20 discount for your first order'
+            default: 'Подпишитесь на нашу рассылку <br>и получайте свежие новости первыми!'
         },
         desc: {
             type: String,
