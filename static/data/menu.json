@@ -1,15 +1,12 @@
 {
-    "mainMenu": [
-        {
+    "mainMenu": [{
             "text": "Products",
             "url": "#",
             "extraClass": "has-mega-menu",
             "icon": "fa fa-bars",
-            "megaContent": [
-                {
+            "megaContent": [{
                     "heading": "Wound Care",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Bandages",
                             "url": "/shop/list"
                         },
@@ -41,8 +38,7 @@
                 },
                 {
                     "heading": "Higiene",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Disposable products",
                             "url": "/shop/list"
                         },
@@ -74,8 +70,7 @@
                 },
                 {
                     "heading": "Laboratory",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Devices",
                             "url": "/shop/list"
                         },
@@ -107,8 +102,7 @@
                 },
                 {
                     "heading": "Tools",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Accessories Tools",
                             "url": "/shop/list"
                         },
@@ -140,8 +134,7 @@
                 },
                 {
                     "heading": "Diagnosis",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Biopsy tools",
                             "url": "/shop/list"
                         },
@@ -173,8 +166,7 @@
                 },
                 {
                     "heading": "Equipment",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Blades",
                             "url": "/shop/list"
                         },
@@ -211,11 +203,9 @@
             "text": "Home Medical Supplies",
             "url": "#",
             "extraClass": "has-mega-menu",
-            "megaContent": [
-                {
+            "megaContent": [{
                     "megaColumn": "col-12 col-sm-3",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Diagnosis",
                             "url": "/shop/list"
                         },
@@ -288,97 +278,6 @@
             ]
         },
         {
-            "text": "Homepages",
-            "url": "#",
-            "extraClass": "has-mega-menu",
-            "home": true,
-            "megaContent": [
-                {
-                    "heading": "Home 1",
-                    "image": "/img/promotion/1.jpg",
-                    "url": "/"
-                },
-                {
-                    "heading": "Home 2",
-                    "image": "/img/promotion/2.jpg",
-                    "url": "/homepage/home-2"
-                },
-                {
-                    "heading": "Home 3",
-                    "image": "/img/promotion/3.jpg",
-                    "url": "/homepage/home-3"
-                },
-                {
-                    "heading": "Home 4",
-                    "image": "/img/promotion/4.jpg",
-                    "url": "/homepage/home-4"
-                },
-                {
-                    "heading": "Home 5",
-                    "image": "/img/promotion/5.jpg",
-                    "url": "/homepage/home-5"
-                },
-                {
-                    "heading": "Home 6 Masks",
-                    "image": "/img/promotion/6.jpg",
-                    "url": "/homepage/home-6"
-                },
-                {
-                    "heading": "Home 7 One product",
-                    "image": "/img/promotion/7.jpg",
-                    "url": "/homepage/home-7"
-                },
-                {
-                    "heading": "Home 08",
-                    "url": "/homepage/home-8",
-                    "image": "/img/promotion/8.jpg",
-                    "new": true
-                },
-                {
-                    "heading": "Home 09",
-                    "url": "/homepage/home-9",
-                    "image": "/img/promotion/9.jpg",
-                    "new": true
-                },
-                {
-                    "heading": "Home 10",
-                    "url": "/homepage/home-10",
-                    "image": "/img/promotion/10.jpg",
-                    "new": true
-                },
-                {
-                    "heading": "Home 11",
-                    "url": "/homepage/home-11",
-                    "image": "/img/promotion/11.jpg",
-                    "new": true
-                },
-                {
-                    "heading": "Home 12",
-                    "url": "/homepage/home-12",
-                    "image": "/img/promotion/12.jpg",
-                    "new": true
-                },
-                {
-                    "heading": "Home 13",
-                    "url": "/homepage/home-13",
-                    "image": "/img/promotion/13.jpg",
-                    "new": true
-                },
-                {
-                    "heading": "Home 14",
-                    "url": "/homepage/home-14",
-                    "image": "/img/promotion/14.jpg",
-                    "new": true
-                },
-                {
-                    "heading": "Home 15",
-                    "url": "/homepage/home-15",
-                    "image": "/img/promotion/15.jpg",
-                    "new": true
-                }
-            ]
-        },
-        {
             "text": "Shop",
             "url": "/shop",
             "extraClass": "has-mega-menu"
@@ -387,11 +286,9 @@
             "text": "Pages",
             "url": "#",
             "extraClass": "has-mega-menu",
-            "megaContent": [
-                {
+            "megaContent": [{
                     "heading": "Category",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Promo Category",
                             "url": "/shop/promo-category"
                         },
@@ -427,8 +324,7 @@
                 },
                 {
                     "heading": "Pages",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "404",
                             "url": "/404"
                         },
@@ -468,8 +364,7 @@
                 },
                 {
                     "heading": "Product",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Layout 01",
                             "url": "/product/layout/layout-1/2"
                         },
@@ -509,8 +404,7 @@
                 },
                 {
                     "heading": "Blog",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Blog sidebar 1",
                             "url": "/blog/sidebar-1"
                         },
@@ -534,8 +428,7 @@
                 },
                 {
                     "heading": "Home",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Home 01",
                             "url": "/"
                         },
@@ -611,11 +504,9 @@
             "text": "Collection",
             "url": "#",
             "extraClass": "has-mega-menu",
-            "megaContent": [
-                {
+            "megaContent": [{
                     "megaColumn": "col-12 col-md-3",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Diagnosis",
                             "url": "/shop/list"
                         },
@@ -674,19 +565,16 @@
             "extraClass": "has-mega-menu"
         }
     ],
-    "menuMobile": [
-        {
+    "menuMobile": [{
             "text": "Products",
             "url": "#",
             "extraClass": "menu-item-has-children",
             "subClass": "sub-menu",
-            "subMenu": [
-                {
+            "subMenu": [{
                     "text": "Wound Care",
                     "url": "#",
                     "subClass": "sub-menu",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Bandages",
                             "url": "/shop/list"
                         },
@@ -704,8 +592,7 @@
                     "text": "Higiene",
                     "url": "#",
                     "subClass": "sub-menu",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Disposable products",
                             "url": "/shop/list"
                         },
@@ -723,8 +610,7 @@
                     "text": "Laboratory",
                     "url": "#",
                     "subClass": "sub-menu",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Devices",
                             "url": "/shop/list"
                         },
@@ -741,8 +627,7 @@
             "url": "#",
             "extraClass": "menu-item-has-children",
             "subClass": "sub-menu",
-            "subMenu": [
-                {
+            "subMenu": [{
                     "text": "Diagnosis",
                     "url": "/shop/list"
                 },
@@ -757,74 +642,6 @@
             ]
         },
         {
-            "text": "Homepages",
-            "url": "#",
-            "extraClass": "menu-item-has-children",
-            "subClass": "sub-menu",
-            "subMenu": [
-                {
-                    "text": "Home 01",
-                    "url": "/"
-                },
-                {
-                    "text": "Home 02",
-                    "url": "/homepage/home-2"
-                },
-                {
-                    "text": "Home 03",
-                    "url": "/homepage/home-3"
-                },
-                {
-                    "text": "Home 04",
-                    "url": "/homepage/home-4"
-                },
-                {
-                    "text": "Home 05",
-                    "url": "/homepage/home-5"
-                },
-                {
-                    "text": "Home 06",
-                    "url": "/homepage/home-6"
-                },
-                {
-                    "text": "Home 07",
-                    "url": "/homepage/home-7"
-                },
-                {
-                    "text": "Home 08",
-                    "url": "/homepage/home-8"
-                },
-                {
-                    "text": "Home 09",
-                    "url": "/homepage/home-9"
-                },
-                {
-                    "text": "Home 10",
-                    "url": "/homepage/home-10"
-                },
-                {
-                    "text": "Home 11",
-                    "url": "/homepage/home-11"
-                },
-                {
-                    "text": "Home 12",
-                    "url": "/homepage/home-12"
-                },
-                {
-                    "text": "Home 13",
-                    "url": "/homepage/home-13"
-                },
-                {
-                    "text": "Home 14",
-                    "url": "/homepage/home-14"
-                },
-                {
-                    "text": "Home 15",
-                    "url": "/homepage/home-15"
-                }
-            ]
-        },
-        {
             "text": "Shop",
             "url": "/shop",
             "extraClass": "menu-item-has-children"
@@ -834,13 +651,11 @@
             "url": "#",
             "extraClass": "menu-item-has-children",
             "subClass": "sub-menu",
-            "subMenu": [
-                {
+            "subMenu": [{
                     "text": "Category",
                     "url": "#",
                     "subClass": "sub-menu",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Grid",
                             "url": "/shop/grid"
                         },
@@ -870,8 +685,7 @@
                     "text": "Product",
                     "url": "#",
                     "subClass": "sub-menu",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Layout 01",
                             "url": "/product/layout/layout-1/2"
                         },
@@ -897,8 +711,7 @@
                     "text": "Pages",
                     "url": "#",
                     "subClass": "sub-menu",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "404",
                             "url": "/404"
                         },
@@ -935,8 +748,7 @@
             "url": "#",
             "extraClass": "menu-item-has-children",
             "subClass": "sub-menu",
-            "subMenu": [
-                {
+            "subMenu": [{
                     "text": "Face masks",
                     "url": "/shop/list"
                 },
@@ -961,8 +773,7 @@
             "extraClass": "menu-item-has-children"
         }
     ],
-    "navPromo": [
-        {
+    "navPromo": [{
             "banner": "/img/promotion/bg-banner4.jpg",
             "badge": "New",
             "title": "Get rid of bacteria <br/>in your home",
@@ -976,8 +787,7 @@
             "sale": "-10%"
         }
     ],
-    "menuTopHome2": [
-        {
+    "menuTopHome2": [{
             "text": "About",
             "url": "/about-us",
             "extraClass": "nav-item",
@@ -1002,17 +812,452 @@
             "linkClass": "nav-link"
         }
     ],
-    "menuHome3": [
-        {
+    "menuHome3": [{
+        "text": "Products",
+        "url": "#",
+        "extraClass": "has-mega-menu",
+        "icon": "fa fa-bars",
+        "megaContent": [{
+                "heading": "Category",
+                "megaItems": [{
+                        "text": "Promo Category",
+                        "url": "/shop/promo-category"
+                    },
+                    {
+                        "text": "Grid",
+                        "url": "/shop/grid"
+                    },
+                    {
+                        "text": "Grid with details",
+                        "url": "/shop/grid-detail"
+                    },
+                    {
+                        "text": "Grid separate",
+                        "url": "/shop/grid-separate"
+                    },
+                    {
+                        "text": "Grid with header green",
+                        "url": "/shop/grid-green"
+                    },
+                    {
+                        "text": "Grid with header dark",
+                        "url": "/shop/grid-dark"
+                    },
+                    {
+                        "text": "List",
+                        "url": "/shop/list"
+                    },
+                    {
+                        "text": "Load more button",
+                        "url": "/shop/list-load-more"
+                    }
+                ]
+            },
+            {
+                "heading": "Pages",
+                "megaItems": [{
+                        "text": "404",
+                        "url": "/404"
+                    },
+                    {
+                        "text": "About us",
+                        "url": "/about-us"
+                    },
+                    {
+                        "text": "Contact us",
+                        "url": "/contact-us"
+                    },
+                    {
+                        "text": "Portfolio",
+                        "url": "/portfolio"
+                    },
+                    {
+                        "text": "Porfolio Detail",
+                        "url": "/portfolio/1"
+                    },
+                    {
+                        "text": "My Account",
+                        "url": "/account/my-account"
+                    },
+                    {
+                        "text": "Shopping Cart",
+                        "url": "/shop/shopping-cart"
+                    },
+                    {
+                        "text": "Coming soon 1",
+                        "url": "/coming-soon/v1"
+                    },
+                    {
+                        "text": "Coming soon 2",
+                        "url": "/coming-soon/v2"
+                    }
+                ]
+            },
+            {
+                "heading": "Product",
+                "megaItems": [{
+                        "text": "Layout 01",
+                        "url": "/product/layout/layout-1/2"
+                    },
+                    {
+                        "text": "Layout 02",
+                        "url": "/product/layout/layout-2/3"
+                    },
+                    {
+                        "text": "Layout 03",
+                        "url": "/product/layout/layout-3/4"
+                    },
+                    {
+                        "text": "Layout 04",
+                        "url": "/product/layout/layout-4/5"
+                    },
+                    {
+                        "text": "Layout 05",
+                        "url": "/product/layout/layout-5/37"
+                    },
+                    {
+                        "text": "Layout 06",
+                        "url": "/product/layout/layout-6/52"
+                    },
+                    {
+                        "text": "Layout 07",
+                        "url": "/product/layout/layout-7/49"
+                    },
+                    {
+                        "text": "Product variable",
+                        "url": "/product/layout/product-variable/7"
+                    },
+                    {
+                        "text": "Product sold out",
+                        "url": "/product/layout/product-sold-out/8"
+                    }
+                ]
+            },
+            {
+                "heading": "Blog",
+                "megaItems": [{
+                        "text": "Blog sidebar 1",
+                        "url": "/blog/sidebar-1"
+                    },
+                    {
+                        "text": "Blog sidebar 2",
+                        "url": "/blog/sidebar-2"
+                    },
+                    {
+                        "text": "Blog Masonry",
+                        "url": "/blog/masonry"
+                    },
+                    {
+                        "text": "Blog post 1",
+                        "url": "/blog/post-detail-1/2"
+                    },
+                    {
+                        "text": "Blog post 2",
+                        "url": "/blog/post-detail-2/2"
+                    }
+                ]
+            },
+            {
+                "heading": "Home",
+                "megaItems": [{
+                        "text": "Home 01",
+                        "url": "/"
+                    },
+                    {
+                        "text": "Home 02",
+                        "url": "/homepage/home-2"
+                    },
+                    {
+                        "text": "Home 03",
+                        "url": "/homepage/home-3"
+                    },
+                    {
+                        "text": "Home 04",
+                        "url": "/homepage/home-4"
+                    },
+                    {
+                        "text": "Home 05",
+                        "url": "/homepage/home-5"
+                    },
+                    {
+                        "text": "Home 06",
+                        "url": "/homepage/home-6"
+                    },
+                    {
+                        "text": "Home 07",
+                        "url": "/homepage/home-7"
+                    },
+                    {
+                        "text": "Home 08",
+                        "url": "/homepage/home-8",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 09",
+                        "url": "/homepage/home-9",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 10",
+                        "url": "/homepage/home-10",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 11",
+                        "url": "/homepage/home-11",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 12",
+                        "url": "/homepage/home-12",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 13",
+                        "url": "/homepage/home-13",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 14",
+                        "url": "/homepage/home-14",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 15",
+                        "url": "/homepage/home-15",
+                        "new": true
+                    }
+                ]
+            }
+        ]
+    }],
+    "menuHome9": [{
+        "text": "Our Masks",
+        "url": "#",
+        "extraClass": "has-mega-menu",
+        "icon": "fa fa-bars",
+        "megaContent": [{
+                "heading": "Category",
+                "megaItems": [{
+                        "text": "Promo Category",
+                        "url": "/shop/promo-category"
+                    },
+                    {
+                        "text": "Grid",
+                        "url": "/shop/grid"
+                    },
+                    {
+                        "text": "Grid with details",
+                        "url": "/shop/grid-detail"
+                    },
+                    {
+                        "text": "Grid separate",
+                        "url": "/shop/grid-separate"
+                    },
+                    {
+                        "text": "Grid with header green",
+                        "url": "/shop/grid-green"
+                    },
+                    {
+                        "text": "Grid with header dark",
+                        "url": "/shop/grid-dark"
+                    },
+                    {
+                        "text": "List",
+                        "url": "/shop/list"
+                    },
+                    {
+                        "text": "Load more button",
+                        "url": "/shop/list-load-more"
+                    }
+                ]
+            },
+            {
+                "heading": "Pages",
+                "megaItems": [{
+                        "text": "404",
+                        "url": "/404"
+                    },
+                    {
+                        "text": "About us",
+                        "url": "/about-us"
+                    },
+                    {
+                        "text": "Contact us",
+                        "url": "/contact-us"
+                    },
+                    {
+                        "text": "Portfolio",
+                        "url": "/portfolio"
+                    },
+                    {
+                        "text": "Porfolio Detail",
+                        "url": "/portfolio/1"
+                    },
+                    {
+                        "text": "My Account",
+                        "url": "/account/my-account"
+                    },
+                    {
+                        "text": "Shopping Cart",
+                        "url": "/shop/shopping-cart"
+                    },
+                    {
+                        "text": "Coming soon 1",
+                        "url": "/coming-soon/v1"
+                    },
+                    {
+                        "text": "Coming soon 2",
+                        "url": "/coming-soon/v2"
+                    }
+                ]
+            },
+            {
+                "heading": "Product",
+                "megaItems": [{
+                        "text": "Layout 01",
+                        "url": "/product/layout/layout-1/2"
+                    },
+                    {
+                        "text": "Layout 02",
+                        "url": "/product/layout/layout-2/3"
+                    },
+                    {
+                        "text": "Layout 03",
+                        "url": "/product/layout/layout-3/4"
+                    },
+                    {
+                        "text": "Layout 04",
+                        "url": "/product/layout/layout-4/5"
+                    },
+                    {
+                        "text": "Layout 05",
+                        "url": "/product/layout/layout-5/37"
+                    },
+                    {
+                        "text": "Layout 06",
+                        "url": "/product/layout/layout-6/52"
+                    },
+                    {
+                        "text": "Layout 07",
+                        "url": "/product/layout/layout-7/49"
+                    },
+                    {
+                        "text": "Product variable",
+                        "url": "/product/layout/product-variable/7"
+                    },
+                    {
+                        "text": "Product sold out",
+                        "url": "/product/layout/product-sold-out/8"
+                    }
+                ]
+            },
+            {
+                "heading": "Blog",
+                "megaItems": [{
+                        "text": "Blog sidebar 1",
+                        "url": "/blog/sidebar-1"
+                    },
+                    {
+                        "text": "Blog sidebar 2",
+                        "url": "/blog/sidebar-2"
+                    },
+                    {
+                        "text": "Blog Masonry",
+                        "url": "/blog/masonry"
+                    },
+                    {
+                        "text": "Blog post 1",
+                        "url": "/blog/post-detail-1/2"
+                    },
+                    {
+                        "text": "Blog post 2",
+                        "url": "/blog/post-detail-2/2"
+                    }
+                ]
+            },
+            {
+                "heading": "Home",
+                "megaItems": [{
+                        "text": "Home 01",
+                        "url": "/"
+                    },
+                    {
+                        "text": "Home 02",
+                        "url": "/homepage/home-2"
+                    },
+                    {
+                        "text": "Home 03",
+                        "url": "/homepage/home-3"
+                    },
+                    {
+                        "text": "Home 04",
+                        "url": "/homepage/home-4"
+                    },
+                    {
+                        "text": "Home 05",
+                        "url": "/homepage/home-5"
+                    },
+                    {
+                        "text": "Home 06",
+                        "url": "/homepage/home-6"
+                    },
+                    {
+                        "text": "Home 07",
+                        "url": "/homepage/home-7"
+                    },
+                    {
+                        "text": "Home 08",
+                        "url": "/homepage/home-8",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 09",
+                        "url": "/homepage/home-9",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 10",
+                        "url": "/homepage/home-10",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 11",
+                        "url": "/homepage/home-11",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 12",
+                        "url": "/homepage/home-12",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 13",
+                        "url": "/homepage/home-13",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 14",
+                        "url": "/homepage/home-14",
+                        "new": true
+                    },
+                    {
+                        "text": "Home 15",
+                        "url": "/homepage/home-15",
+                        "new": true
+                    }
+                ]
+            }
+        ]
+    }],
+    "menuHome11": [{
             "text": "Products",
             "url": "#",
             "extraClass": "has-mega-menu",
             "icon": "fa fa-bars",
-            "megaContent": [
-                {
+            "megaContent": [{
                     "heading": "Category",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Promo Category",
                             "url": "/shop/promo-category"
                         },
@@ -1048,8 +1293,7 @@
                 },
                 {
                     "heading": "Pages",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "404",
                             "url": "/404"
                         },
@@ -1089,8 +1333,7 @@
                 },
                 {
                     "heading": "Product",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Layout 01",
                             "url": "/product/layout/layout-1/2"
                         },
@@ -1130,8 +1373,7 @@
                 },
                 {
                     "heading": "Blog",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Blog sidebar 1",
                             "url": "/blog/sidebar-1"
                         },
@@ -1155,462 +1397,7 @@
                 },
                 {
                     "heading": "Home",
-                    "megaItems": [
-                        {
-                            "text": "Home 01",
-                            "url": "/"
-                        },
-                        {
-                            "text": "Home 02",
-                            "url": "/homepage/home-2"
-                        },
-                        {
-                            "text": "Home 03",
-                            "url": "/homepage/home-3"
-                        },
-                        {
-                            "text": "Home 04",
-                            "url": "/homepage/home-4"
-                        },
-                        {
-                            "text": "Home 05",
-                            "url": "/homepage/home-5"
-                        },
-                        {
-                            "text": "Home 06",
-                            "url": "/homepage/home-6"
-                        },
-                        {
-                            "text": "Home 07",
-                            "url": "/homepage/home-7"
-                        },
-                        {
-                            "text": "Home 08",
-                            "url": "/homepage/home-8",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 09",
-                            "url": "/homepage/home-9",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 10",
-                            "url": "/homepage/home-10",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 11",
-                            "url": "/homepage/home-11",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 12",
-                            "url": "/homepage/home-12",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 13",
-                            "url": "/homepage/home-13",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 14",
-                            "url": "/homepage/home-14",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 15",
-                            "url": "/homepage/home-15",
-                            "new": true
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "menuHome9": [
-        {
-            "text": "Our Masks",
-            "url": "#",
-            "extraClass": "has-mega-menu",
-            "icon": "fa fa-bars",
-            "megaContent": [
-                {
-                    "heading": "Category",
-                    "megaItems": [
-                        {
-                            "text": "Promo Category",
-                            "url": "/shop/promo-category"
-                        },
-                        {
-                            "text": "Grid",
-                            "url": "/shop/grid"
-                        },
-                        {
-                            "text": "Grid with details",
-                            "url": "/shop/grid-detail"
-                        },
-                        {
-                            "text": "Grid separate",
-                            "url": "/shop/grid-separate"
-                        },
-                        {
-                            "text": "Grid with header green",
-                            "url": "/shop/grid-green"
-                        },
-                        {
-                            "text": "Grid with header dark",
-                            "url": "/shop/grid-dark"
-                        },
-                        {
-                            "text": "List",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Load more button",
-                            "url": "/shop/list-load-more"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Pages",
-                    "megaItems": [
-                        {
-                            "text": "404",
-                            "url": "/404"
-                        },
-                        {
-                            "text": "About us",
-                            "url": "/about-us"
-                        },
-                        {
-                            "text": "Contact us",
-                            "url": "/contact-us"
-                        },
-                        {
-                            "text": "Portfolio",
-                            "url": "/portfolio"
-                        },
-                        {
-                            "text": "Porfolio Detail",
-                            "url": "/portfolio/1"
-                        },
-                        {
-                            "text": "My Account",
-                            "url": "/account/my-account"
-                        },
-                        {
-                            "text": "Shopping Cart",
-                            "url": "/shop/shopping-cart"
-                        },
-                        {
-                            "text": "Coming soon 1",
-                            "url": "/coming-soon/v1"
-                        },
-                        {
-                            "text": "Coming soon 2",
-                            "url": "/coming-soon/v2"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Product",
-                    "megaItems": [
-                        {
-                            "text": "Layout 01",
-                            "url": "/product/layout/layout-1/2"
-                        },
-                        {
-                            "text": "Layout 02",
-                            "url": "/product/layout/layout-2/3"
-                        },
-                        {
-                            "text": "Layout 03",
-                            "url": "/product/layout/layout-3/4"
-                        },
-                        {
-                            "text": "Layout 04",
-                            "url": "/product/layout/layout-4/5"
-                        },
-                        {
-                            "text": "Layout 05",
-                            "url": "/product/layout/layout-5/37"
-                        },
-                        {
-                            "text": "Layout 06",
-                            "url": "/product/layout/layout-6/52"
-                        },
-                        {
-                            "text": "Layout 07",
-                            "url": "/product/layout/layout-7/49"
-                        },
-                        {
-                            "text": "Product variable",
-                            "url": "/product/layout/product-variable/7"
-                        },
-                        {
-                            "text": "Product sold out",
-                            "url": "/product/layout/product-sold-out/8"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Blog",
-                    "megaItems": [
-                        {
-                            "text": "Blog sidebar 1",
-                            "url": "/blog/sidebar-1"
-                        },
-                        {
-                            "text": "Blog sidebar 2",
-                            "url": "/blog/sidebar-2"
-                        },
-                        {
-                            "text": "Blog Masonry",
-                            "url": "/blog/masonry"
-                        },
-                        {
-                            "text": "Blog post 1",
-                            "url": "/blog/post-detail-1/2"
-                        },
-                        {
-                            "text": "Blog post 2",
-                            "url": "/blog/post-detail-2/2"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Home",
-                    "megaItems": [
-                        {
-                            "text": "Home 01",
-                            "url": "/"
-                        },
-                        {
-                            "text": "Home 02",
-                            "url": "/homepage/home-2"
-                        },
-                        {
-                            "text": "Home 03",
-                            "url": "/homepage/home-3"
-                        },
-                        {
-                            "text": "Home 04",
-                            "url": "/homepage/home-4"
-                        },
-                        {
-                            "text": "Home 05",
-                            "url": "/homepage/home-5"
-                        },
-                        {
-                            "text": "Home 06",
-                            "url": "/homepage/home-6"
-                        },
-                        {
-                            "text": "Home 07",
-                            "url": "/homepage/home-7"
-                        },
-                        {
-                            "text": "Home 08",
-                            "url": "/homepage/home-8",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 09",
-                            "url": "/homepage/home-9",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 10",
-                            "url": "/homepage/home-10",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 11",
-                            "url": "/homepage/home-11",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 12",
-                            "url": "/homepage/home-12",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 13",
-                            "url": "/homepage/home-13",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 14",
-                            "url": "/homepage/home-14",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 15",
-                            "url": "/homepage/home-15",
-                            "new": true
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "menuHome11": [
-        {
-            "text": "Products",
-            "url": "#",
-            "extraClass": "has-mega-menu",
-            "icon": "fa fa-bars",
-            "megaContent": [
-                {
-                    "heading": "Category",
-                    "megaItems": [
-                        {
-                            "text": "Promo Category",
-                            "url": "/shop/promo-category"
-                        },
-                        {
-                            "text": "Grid",
-                            "url": "/shop/grid"
-                        },
-                        {
-                            "text": "Grid with details",
-                            "url": "/shop/grid-detail"
-                        },
-                        {
-                            "text": "Grid separate",
-                            "url": "/shop/grid-separate"
-                        },
-                        {
-                            "text": "Grid with header green",
-                            "url": "/shop/grid-green"
-                        },
-                        {
-                            "text": "Grid with header dark",
-                            "url": "/shop/grid-dark"
-                        },
-                        {
-                            "text": "List",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Load more button",
-                            "url": "/shop/list-load-more"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Pages",
-                    "megaItems": [
-                        {
-                            "text": "404",
-                            "url": "/404"
-                        },
-                        {
-                            "text": "About us",
-                            "url": "/about-us"
-                        },
-                        {
-                            "text": "Contact us",
-                            "url": "/contact-us"
-                        },
-                        {
-                            "text": "Portfolio",
-                            "url": "/portfolio"
-                        },
-                        {
-                            "text": "Porfolio Detail",
-                            "url": "/portfolio/1"
-                        },
-                        {
-                            "text": "My Account",
-                            "url": "/account/my-account"
-                        },
-                        {
-                            "text": "Shopping Cart",
-                            "url": "/shop/shopping-cart"
-                        },
-                        {
-                            "text": "Coming soon 1",
-                            "url": "/coming-soon/v1"
-                        },
-                        {
-                            "text": "Coming soon 2",
-                            "url": "/coming-soon/v2"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Product",
-                    "megaItems": [
-                        {
-                            "text": "Layout 01",
-                            "url": "/product/layout/layout-1/2"
-                        },
-                        {
-                            "text": "Layout 02",
-                            "url": "/product/layout/layout-2/3"
-                        },
-                        {
-                            "text": "Layout 03",
-                            "url": "/product/layout/layout-3/4"
-                        },
-                        {
-                            "text": "Layout 04",
-                            "url": "/product/layout/layout-4/5"
-                        },
-                        {
-                            "text": "Layout 05",
-                            "url": "/product/layout/layout-5/37"
-                        },
-                        {
-                            "text": "Layout 06",
-                            "url": "/product/layout/layout-6/52"
-                        },
-                        {
-                            "text": "Layout 07",
-                            "url": "/product/layout/layout-7/49"
-                        },
-                        {
-                            "text": "Product variable",
-                            "url": "/product/layout/product-variable/7"
-                        },
-                        {
-                            "text": "Product sold out",
-                            "url": "/product/layout/product-sold-out/8"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Blog",
-                    "megaItems": [
-                        {
-                            "text": "Blog sidebar 1",
-                            "url": "/blog/sidebar-1"
-                        },
-                        {
-                            "text": "Blog sidebar 2",
-                            "url": "/blog/sidebar-2"
-                        },
-                        {
-                            "text": "Blog Masonry",
-                            "url": "/blog/masonry"
-                        },
-                        {
-                            "text": "Blog post 1",
-                            "url": "/blog/post-detail-1/2"
-                        },
-                        {
-                            "text": "Blog post 2",
-                            "url": "/blog/post-detail-2/2"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Home",
-                    "megaItems": [
-                        {
+                    "megaItems": [{
                             "text": "Home 01",
                             "url": "/"
                         },
