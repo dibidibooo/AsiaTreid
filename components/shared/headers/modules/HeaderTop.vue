@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="ps-header__text"> <strong>100% Secure delivery </strong>without contacting the courier </div>
+        <div class="ps-header__text"> <strong>100% безопасная </strong>бесконтактная доставка </div>
         <div class="ps-top__right"> 
             <language-currency />
             <div class="ps-top__social">

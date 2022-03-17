@@ -18,8 +18,7 @@
         <div class="ps-product__gif">
             <div class="ps-gif__text">
                 <i class="icon-shield-check"></i
-                ><strong>100% Secure delivery </strong>without contacting the
-                courier
+                ><strong>100% безопасная </strong>бесконтактная доставка
             </div>
             <img
                 class="ps-gif__thumbnail"

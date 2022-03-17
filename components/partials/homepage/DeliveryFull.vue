@@ -8,9 +8,8 @@
                 <div class="ps-delivery__text">
                     <i class="icon-shield-check"></i
                     ><span>
-                        <strong>100% Secure delivery </strong>without contacting the
-                        courier</span
-                    >
+                    <strong>100% безопасная </strong>бесконтактная доставка</span
+                >
                 </div>
                 <nuxt-link class="ps-delivery__more" to="/">More</nuxt-link>
             </div>
