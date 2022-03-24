@@ -169,7 +169,7 @@ export default {
             const title = this.product ? this.product.name : '';
             const message = {
                 icon: 'icon-shield-check',
-                message: title + ' has been added to your wishlist !'
+                message: title + ' был добавлен в ваш список желаний !'
             };
             this.$store.dispatch('wishlist/addItemToWishlist', params);
             this.$store.commit('product/addWishlistItem', this.product);

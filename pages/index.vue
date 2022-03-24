@@ -27,7 +27,7 @@
                     <delivery />
                 </div>
                 <best-deals-product-carousel
-                    title="Best Deals of the week!"
+                    title="Лучшие предложения недели!"
                     :dataList="bestDealProduct"
                 />
                 <bestsellers-product :dataList="bestsellerProduct" />
@@ -123,9 +123,9 @@ export default {
             promotionCenter: [
                 {
                     banner: '/img/promotion/bg-banner4.jpg',
-                    badge: 'New',
-                    title: 'Get rid of bacteria <br/>in your home',
-                    btnName: 'More',
+                    badge: 'Новинка',
+                    title: 'Избавится от бактерий <br> в твоем доме',
+                    btnName: 'Подробнее',
                     classTitle: 'mb-20'
                 },
                 {

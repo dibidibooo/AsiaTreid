@@ -1,6 +1,6 @@
 <template>
     <section class="ps-section--review-product">
-        <h2 class="ps-section__title">Latest reviews</h2>
+        <h2 class="ps-section__title">Отзывы наших клиентов</h2>
         <a class="ps-section__toggle" href="#" @click.prevent="activeForm = !activeForm">Write a review</a>
         <slide-up-down :active="activeForm">
             <form-review @submit="handleReview" />

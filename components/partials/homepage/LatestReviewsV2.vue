@@ -7,7 +7,7 @@
                 </div>
                 <div class="col-12 col-sm-9 col-md-9">
                     <div class="ps-section__carousel">
-                        <h3 class="ps-section__title"> <img src="/img/quote-icon.png" alt>Latest reviews</h3>
+                        <h3 class="ps-section__title"> <img src="/img/quote-icon.png" alt>Отзывы наших клиентов</h3>
                         <div class="ps-swiper">
                             <div class="swiper" v-swiper:reviewSwiper="swiperOption">
                                 <div class="swiper-wrapper">

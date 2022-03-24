@@ -2,7 +2,7 @@ export const state = () => ({
     appDrawer: false,
     currentDrawerContent: null,
     currency: 'USD',
-    language: 'English',
+    language: 'Русский',
     loading: true,
     openDialogLanguage: false,
     openDialogCurrency: false,

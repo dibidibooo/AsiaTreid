@@ -1,6 +1,6 @@
 <template>
     <section class="ps-section--reviews" style="background-image: url('/img/roundbg.png');"> 
-        <h3 class="ps-section__title"> <img src="/img/quote-icon.png" alt>Latest reviews</h3>
+        <h3 class="ps-section__title"> <img src="/img/quote-icon.png" alt>Отзывы наших клиентов</h3>
         <div class="ps-section__content">
             <div class="ps-swiper">
                 <div class="swiper" v-swiper:reviewSwiper="swiperOption">

@@ -8,7 +8,7 @@
             <popular-category-horizontal />
         </div>
         <best-deals-product-carousel
-            title="Best Deals of the week!"
+            title="Лучшие предложения недели!"
             :dataList="bestDealProduct"
         />
         <div class="container">

@@ -1,17 +1,17 @@
 <template>
     <section class="ps-section--sellers">
         <div class="container">
-            <h3 class="ps-section__title">Top 5 Bestsellers in: </h3>
+            <h3 class="ps-section__title">Топ 5 бестселлеров в категории: </h3>
             <div class="ps-section__tab">
                 <v-tabs v-model="tab" centered>
                     <v-tab href="#blood">
-                        Blood pressure
+                        Категория 1
                     </v-tab>
                     <v-tab href="#mask">
-                        Face masks
+                        Категория 2
                     </v-tab>
                     <v-tab href="#stomatology">
-                        Stomatology
+                        Категория 3
                     </v-tab>
                 </v-tabs>
                 <v-tabs-items v-model="tab">

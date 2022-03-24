@@ -1,7 +1,7 @@
 <template>
     <section class="ps-section--reviews ps-reviews--3">
         <div class="container">
-            <h3 class="ps-section__title"> <img src="/img/quote-icon.png" alt>Latest reviews</h3>
+            <h3 class="ps-section__title"> <img src="/img/quote-icon.png" alt>Отзывы наших клиентов</h3>
             <div class="ps-section__content">
                 <ul class="ps-section__list">
                     <li v-for="(item, index) in reviews" :key="index">

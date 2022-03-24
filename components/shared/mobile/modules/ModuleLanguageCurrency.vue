@@ -24,7 +24,7 @@ export default {
             active: null,
             list: [
                 {
-                    text: 'English',
+                    text: 'Русский',
                     subClass: "sub-menu",
                     url: '#',
                     subMenu: [
