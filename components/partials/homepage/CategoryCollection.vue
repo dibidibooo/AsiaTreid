@@ -2,7 +2,7 @@
     <section class="ps-section--category">
         <div class="container">
             <h3 class="ps-section__title">
-                Check out the most popular categories
+                Ознакомьтесь с самыми популярными категориями
             </h3>
             <div class="ps-category--block">
                 <div class="ps-category__thumbnail" v-for="(item, index) in categoryImage" :key="index">
@@ -13,7 +13,7 @@
                         <nuxt-link class="ps-category__name" to="/shop"
                             >{{ item.name }}</nuxt-link
                         ><nuxt-link class="ps-category__more" to="/shop"
-                            >More</nuxt-link
+                            >Подробнее</nuxt-link
                         >
                     </div>
                 </div>

@@ -101,13 +101,7 @@
                 class="ps-product__link"
                 href="#"
                 @click.prevent="addProductToWishlist()"
-                >Add to wishlist</a
-            >
-            <a
-                class="ps-product__link"
-                href="#"
-                @click.prevent="addProductCompare()"
-                >Add to Compare</a
+                >Добавить в список желаний</a
             >
         </div>
     </div>

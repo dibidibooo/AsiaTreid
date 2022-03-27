@@ -29,13 +29,6 @@
             <rating-component :value="rating" />
             <span class="ps-product__review">(5 Reviews)</span>
         </div>
-        <div class="ps-product__desc">
-            <ul class="ps-product__list">
-                <li>Study history up to 30 days</li>
-                <li>Up to 5 users simultaneously</li>
-                <li>Has HEALTH certificate</li>
-            </ul>
-        </div>
         <template v-if="design && !design.extent">
             <div class="ps-product__meta">
                 <div v-if="design.priceTo">
@@ -102,7 +95,7 @@
                     design && (design.inStock || design.leftStock)
                 "
             >
-                <h6>Quantity</h6>
+                <h6>Количество</h6>
                 <div class="d-md-flex align-items-center">
                     <div class="def-number-input number-input safari_only">
                         <button
@@ -137,13 +130,7 @@
                     class="ps-product__link"
                     href="#"
                     @click.prevent="addProductToWishlist()"
-                    >Add to wishlist</a
-                >
-                <a
-                    class="ps-product__link"
-                    href="#"
-                    @click.prevent="addProductCompare()"
-                    >Add to Compare</a
+                    >Добавить в список желаний</a
                 >
             </div>
         </template>

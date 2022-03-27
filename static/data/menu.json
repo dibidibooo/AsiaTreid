@@ -5,10 +5,10 @@
             "extraClass": "has-mega-menu",
             "icon": "fa fa-bars",
             "megaContent": [{
-                    "heading": "Wound Care",
+                    "heading": "Дом / Сад",
                     "megaItems": [{
-                            "text": "Bandages",
-                            "url": "/shop/list"
+                            "text": "Одеяла, подушки и пледы",
+                            "url": "/shop/list_category1"
                         },
                         {
                             "text": "Gypsum foundations",

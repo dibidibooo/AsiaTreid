@@ -201,7 +201,6 @@ export default {
             design: {
                 social: true,
                 extent: false,
-                branch: 'HeartRate',
                 inStock: true,
                 type: true
             },

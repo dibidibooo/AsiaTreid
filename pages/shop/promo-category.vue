@@ -15,7 +15,7 @@
             <branch :branchs="branchs" />
         </div>
         <featured-product
-            title="Featured products"
+            title="Рекомендуемые продукты"
             :dataList="featuredProduct"
         />
         <blog-latest :dataList="latestPost" />

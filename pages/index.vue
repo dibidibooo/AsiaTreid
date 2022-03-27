@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <featured-product
-                    title="Featured products"
+                    title="Рекомендуемые продукты"
                     :dataList="featuredProduct"
                 />
                 <latest-reviews-v1 />

@@ -1,45 +1,5 @@
 {
-    "branchDefault": [{
-            "image": "/img/branch/brand-1.jpg",
-            "text": "BestPharm"
-        },
-        {
-            "image": "/img/branch/brand-2.jpg",
-            "text": "HeartRate"
-        },
-        {
-            "image": "/img/branch/brand-3.jpg",
-            "text": "HeartShield"
-        },
-        {
-            "image": "/img/branch/brand-4.jpg",
-            "text": "iHeart"
-        },
-        {
-            "image": "/img/branch/brand-5.jpg",
-            "text": "iLovehealth"
-        },
-        {
-            "image": "/img/branch/brand-6.jpg",
-            "text": "Medialarm"
-        },
-        {
-            "image": "/img/branch/brand-7.jpg",
-            "text": "Medicstore"
-        },
-        {
-            "image": "/img/branch/brand-8.jpg",
-            "text": "MyMedi"
-        },
-        {
-            "image": "/img/branch/brand-9.jpg",
-            "text": "Pharmy"
-        },
-        {
-            "image": "/img/branch/brand-10.jpg",
-            "text": "WeTakeCare"
-        }
-    ],
+    "branchDefault": [],
     "branchDark": [{
             "image": "/img/branch/brand-dark-1.jpg",
             "text": "BestPharm"
