@@ -26,7 +26,7 @@
                 </div>
             </div>
         </div>
-        <product-also :dataList="alsoProduct" title="Customer also bought" />
+        <product-also :dataList="alsoProduct" title="Таже покупают" />
     </div>
 </template>
 

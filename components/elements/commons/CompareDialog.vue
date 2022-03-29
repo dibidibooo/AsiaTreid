@@ -44,7 +44,7 @@
                                                     >${{ product.price }}</span
                                                 >
                                             </div>
-                                            <button class="ps-btn ps-btn--warning" @click.prevent="addToCart(product)">Add to cart</button>
+                                            <button class="ps-btn ps-btn--warning" @click.prevent="addToCart(product)">Добавить в корзину</button>
                                         </div>
                                     </td>
                                 </tr>

@@ -39,7 +39,7 @@
                         </td>
                         <td data-label="Total">
                             <span class="ps-checkout__content"
-                                >${{ productTotal(product) }}</span
+                                >{{ productTotal(product) }}тг.</span
                             >
                         </td>
                     </tr>
@@ -49,7 +49,7 @@
                         </td>
                         <td data-label="Total">
                             <span class="ps-checkout__content"
-                                >${{ totalCart }}</span
+                                >{{ totalCart }}тг.</span
                             >
                         </td>
                     </tr>
@@ -73,7 +73,7 @@
                         </td>
                         <td data-label="Total">
                             <span class="ps-checkout__content"
-                                >${{ totalCart }}</span
+                                >{{ totalCart }}тг.</span
                             >
                         </td>
                     </tr>

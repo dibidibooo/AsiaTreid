@@ -91,7 +91,7 @@
                     class="ps-btn ps-btn--warning"
                     href="#"
                     @click.prevent="addToCart()"
-                    >Add to cart</a
+                    >Добавить в корзину</a
                 >
             </div>
             <div class="ps-product__variations">

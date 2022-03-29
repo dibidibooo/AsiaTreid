@@ -32,7 +32,7 @@
             <div class="col-4 col-md-2">
                 <ul class="ps-footer__list">
                     <li><nuxt-link to="/shop/list">Shipping</nuxt-link></li>
-                    <li><nuxt-link to="/shop/wishlist">Wishlist</nuxt-link></li>
+                    <li><nuxt-link to="/shop/wishlist">Список желаний</nuxt-link></li>
                 </ul>
             </div>
             <div class="col-4 col-md-2"></div>

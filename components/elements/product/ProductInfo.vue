@@ -9,14 +9,13 @@
             "
         >
             <span class="ps-badge ps-badge--instock" v-if="design.inStock">
-                {{ design.available && design.available }} IN STOCK</span
+                {{ design.available && design.available }} В НАЛИЧИИ</span
             >
             <span class="ps-badge ps-badge--outstock" v-if="design.outStock">
-                OUT OF STOCK</span
+                НЕТ В НАЛИЧИИ</span
             >
             <span class="ps-badge ps-badge--leftstock" v-if="design.leftStock">
-                Only {{ design.available && design.available }} left in
-                stock</span
+                Осталось {{ design.available && design.available }} в наличии</span
             >
         </div>
         <div class="ps-product__branch" v-if="design && design.branch">
@@ -27,14 +26,14 @@
         </div>
         <div class="ps-product__rating">
             <rating-component :value="rating" />
-            <span class="ps-product__review">(5 Reviews)</span>
+            <span class="ps-product__review">(5 Отзывов)</span>
         </div>
         <template v-if="design && !design.extent">
             <div class="ps-product__meta">
                 <div v-if="design.priceTo">
                     <span
                         class="ps-product__price sale"
-                        >${{ product.sale_price }} - ${{product.price}}</span
+                        >{{ product.sale_price }} - ${{product.price}}тг.</span
                     >
                 </div>
                 <div v-else>
@@ -43,12 +42,12 @@
                             'ps-product__price',
                             product.sale_price ? 'sale' : ''
                         ]"
-                        >${{
+                        >{{
                             product.sale_price ? product.sale_price : product.price
-                        }}</span
+                        }}тг.</span
                     >
                     <span class="ps-product__del" v-if="product.sale_price"
-                        >${{ product.price }}</span
+                        >{{ product.price }}тг.</span
                     >
                 </div>
             </div>
@@ -118,7 +117,7 @@
                         class="ps-btn ps-btn--warning"
                         href="#"
                         @click.prevent="addToCart()"
-                        >Add to cart</a
+                        >Добавить в корзину</a
                     >
                 </div>
             </div>
@@ -139,19 +138,6 @@
             <li><i class="icon-bag2"></i>Non-contact shipping</li>
             <li><i class="icon-truck"></i>Free delivery for order over $200</li>
         </ul>
-        <div class="ps-product__type" v-if="design && design.type">
-            <ul class="ps-product__list">
-                <li>
-                    <span class="ps-list__title">Tags: </span
-                    ><a class="ps-list__text" href="#">Health</a
-                    ><a class="ps-list__text" href="#">Thermometer</a>
-                </li>
-                <li>
-                    <span class="ps-list__title">SKU: </span
-                    ><a class="ps-list__text" href="#">SF-006</a>
-                </li>
-            </ul>
-        </div>
         <div class="ps-product__social" v-if="design && design.social">
             <social-icon-color />
         </div>

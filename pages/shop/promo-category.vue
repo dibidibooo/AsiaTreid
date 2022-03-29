@@ -64,7 +64,7 @@ export default {
             promotion: {
                 banner: '/img/category/banner-promo.jpg',
                 title: 'Multi-Surface <br/>Free&Clear',
-                btnName: 'Add to cart',
+                btnName: 'Добавить в корзину',
                 price: '$15.99',
                 del: '$29.99',
                 sale: '-25%',

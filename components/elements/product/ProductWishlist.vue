@@ -48,21 +48,21 @@
             <div class="ps-product__row ps-product__stock">
                 <div class="ps-product__label">Stock:</div>
                 <div class="ps-product__value">
-                    <span class="ps-product__in-stock">In Stock</span>
+                    <span class="ps-product__in-stock">В наличии</span>
                     <span class="ps-product__out-stock" v-show="false"
-                        >Out of stock</span
+                        >Нет в наличии</span
                     >
                 </div>
             </div>
             <div class="ps-product__cart">
-                <button class="ps-btn" @click="addToCart()">Add to cart</button>
+                <button class="ps-btn" @click="addToCart()">Добавить в корзину</button>
             </div>
             <div class="ps-product__row ps-product__quantity">
-                <div class="ps-product__label">Quantity:</div>
+                <div class="ps-product__label">Количество:</div>
                 <div class="ps-product__value">{{ quantity }}</div>
             </div>
             <div class="ps-product__row ps-product__subtotal">
-                <div class="ps-product__label">Subtotal:</div>
+                <div class="ps-product__label">Стоимость:</div>
                 <div class="ps-product__value">${{ productPrice() }}</div>
             </div>
         </div>

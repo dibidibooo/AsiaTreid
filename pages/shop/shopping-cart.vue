@@ -2,7 +2,7 @@
     <div class="ps-shopping">
         <div class="container">
             <breadcrumb :dataList="breadcrumb" />
-            <h3 class="ps-shopping__title">Shopping cart<sup>({{ productCartQuantity }})</sup></h3>
+            <h3 class="ps-shopping__title">Корзина<sup>({{ productCartQuantity }})</sup></h3>
             <div class="ps-shopping__content">
                 <div class="row">
                     <div class="col-12 col-sm-7 col-md-9">
@@ -17,10 +17,10 @@
                                     <tr>
                                         <th class="ps-product__remove"></th>
                                         <th class="ps-product__thumbnail"></th>
-                                        <th class="ps-product__name">Product name</th>
-                                        <th class="ps-product__meta">Unit price</th>
-                                        <th class="ps-product__quantity">Quantity</th>
-                                        <th class="ps-product__subtotal">Subtotal</th>
+                                        <th class="ps-product__name">Наименование товара</th>
+                                        <th class="ps-product__meta">Цена за единицу</th>
+                                        <th class="ps-product__quantity">Количество</th>
+                                        <th class="ps-product__subtotal">Итого</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -45,7 +45,7 @@
                                                 }}</span
                                             >
                                             <span class="ps-product__del" v-if="product.sale_price"
-                                                >${{ product.price }}</span
+                                                >{{ product.price }}тг.</span
                                             >
                                         </td>
                                         <td class="ps-product__quantity">
@@ -68,24 +68,15 @@
                                                 </button>
                                             </div>
                                         </td>
-                                        <td class="ps-product__subtotal">${{ productTotal(product) }}</td>
+                                        <td class="ps-product__subtotal">{{ productTotal(product) }}тг.</td>
                                     </tr>
                                     <tr v-if="!cartProducts || !cartProducts.length">
-                                        <td colspan="6">No item</td>
+                                        <td colspan="6">Пусто..</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                         <div class="ps-shopping__footer">
-                            <div class="ps-shopping__coupon">
-                                <v-text-field
-                                    class="form-control ps-input"
-                                    v-model="couponCode"
-                                    rounded
-                                    placeholder="Coupon code"
-                                />
-                                <button class="ps-btn ps-btn--primary" type="button" @click="handleCoupon()">Apply coupon</button>
-                            </div>
                             <div class="ps-shopping__button">
                                 <button class="ps-btn ps-btn--primary" type="button" @click="handleClearAll()">Clear All</button>
                                 <button class="ps-btn ps-btn--primary" type="button" @click="handleUpdateCart()">Update cart</button>
@@ -93,68 +84,30 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-5 col-md-3">
-                        <div class="ps-shopping__label">Cart totals</div>
+                        <div class="ps-shopping__label">Всего в корзине</div>
                         <div class="ps-shopping__box">
                             <div class="ps-shopping__row">
-                                <div class="ps-shopping__label">Subtotal</div>
-                                <div class="ps-shopping__price">${{ totalCart }}</div>
+                                <div class="ps-shopping__label">Сумма</div>
+                                <div class="ps-shopping__price">{{ totalCart }}тг.</div>
                             </div>
-                            <div class="ps-shopping__label">Shipping</div>
+                            <div class="ps-shopping__label">Доставка</div>
                             <div class="ps-shopping__checkbox">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" id="cart-free-ship" checked>
-                                    <label class="form-check-label" for="cart-free-ship">Free shipping</label>
+                                    <label class="form-check-label" for="cart-free-ship">Самовывоз</label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" id="cart-ship">
-                                    <label class="form-check-label" for="cart-ship">Local Pickup: $10.00</label>
-                                </div>
-                            </div>
-                            <div class="ps-shopping__text">Shipping options will be updated during checkout.</div>
-                            <a class="ps-shopping__toggle" href="#" @click.prevent="calculateShipping = !calculateShipping">Calculate shipping</a>
-                            <div class="ps-shopping__form" v-show="calculateShipping">
-                                <div class="ps-shopping__group">
-                                    <v-select
-                                    :items="items"
-                                    rounded
-                                    class="ps-input"
-                                    v-model="region"
-                                    item-text="text"
-                                    item-value="value"
-                                    ></v-select>
-                                </div>
-                                <div class="ps-shopping__group">
-                                    <v-text-field
-                                        class="form-control ps-input"
-                                        v-model="country"
-                                        rounded
-                                        placeholder="County"
-                                    />
-                                </div>
-                                <div class="ps-shopping__group">
-                                    <v-text-field
-                                        class="form-control ps-input"
-                                        v-model="town"
-                                        rounded
-                                        placeholder="Town / City"
-                                    />
-                                </div>
-                                <div class="ps-shopping__group">
-                                    <v-text-field
-                                        class="form-control ps-input"
-                                        v-model="postcode"
-                                        rounded
-                                        placeholder="Postcode"
-                                    />
+                                    <label class="form-check-label" for="cart-ship">Доставка курьером: 1000 тг.</label>
                                 </div>
                             </div>
                             <div class="ps-shopping__row">
-                                <div class="ps-shopping__label">Total</div>
-                                <div class="ps-shopping__price">${{ totalCart }}</div>
+                                <div class="ps-shopping__label">Итого</div>
+                                <div class="ps-shopping__price">{{ totalCart }}тг.</div>
                             </div>
                             <div class="ps-shopping__checkout">
-                                <nuxt-link class="ps-btn ps-btn--warning" to="/shop/checkout">Proceed to checkout</nuxt-link>
-                                <nuxt-link class="ps-shopping__link" to="/shop">Continue To Shopping</nuxt-link>
+                                <nuxt-link class="ps-btn ps-btn--warning" to="/shop/checkout">Перейти к оформлению заказа</nuxt-link>
+                                <nuxt-link class="ps-shopping__link" to="/shop">Продолжить покупки</nuxt-link>
                             </div>
                         </div>
                     </div>
@@ -181,12 +134,12 @@ export default {
             breadcrumb: [
                 {
                     url: '/',
-                    text: 'Home'
+                    text: 'Главная'
                 },
                 {
                     url: '/shop/shopping-cart',
                     extraClass: 'active',
-                    text: 'Shopping cart'
+                    text: 'Корзина'
                 }
             ],
             latestProduct: [],

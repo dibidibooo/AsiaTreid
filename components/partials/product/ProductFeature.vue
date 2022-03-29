@@ -5,10 +5,10 @@
             v-if="feature.inStock || feature.outStock"
         >
             <span class="ps-badge ps-badge--instock" v-if="feature.inStock"
-                >{{ feature.available && feature.available }} IN STOCK</span
+                >{{ feature.available && feature.available }} В НАЛИЧИИ</span
             >
             <span class="ps-badge ps-badge--outstock" v-if="feature.outStock"
-                >OUT OF STOCK</span
+                >НЕТ В НАЛИЧИИ</span
             >
         </div>
         <div class="ps-product__meta">
@@ -94,7 +94,7 @@
             </div>
         </div>
         <button :class="['ps-btn ps-btn--warning', feature.outStock ? 'ps-btn--disabled' : '']" :disabled="feature.outStock ? true : false" @click.prevent="addToCart()"
-            >Add to cart</button
+            >Добавить в корзину</button
         >
         <div class="ps-product__variations">
             <a

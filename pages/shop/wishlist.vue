@@ -2,7 +2,7 @@
     <div class="ps-wishlist">
         <div class="container">
             <breadcrumb :dataList="breadcrumb" />
-            <h3 class="ps-wishlist__title">My wishlist on MyMedi</h3>
+            <h3 class="ps-wishlist__title">Мой список желаний</h3>
             <div class="ps-wishlist__content">
                 <ul class="ps-wishlist__list">
                     <li v-for="(product, index) in wishlistProducts" :key="index">
@@ -15,9 +15,9 @@
                             <tr>
                                 <th class="ps-product__remove"></th>
                                 <th class="ps-product__thumbnail"></th>
-                                <th class="ps-product__name">Product name</th>
-                                <th class="ps-product__meta">Unit price</th>
-                                <th class="ps-product__status">Stock status</th>
+                                <th class="ps-product__name">Наименование товара</th>
+                                <th class="ps-product__meta">Цена за единицу</th>
+                                <th class="ps-product__status">Состояние</th>
                                 <th class="ps-product__cart"></th>
                             </tr>
                         </thead>
@@ -36,28 +36,24 @@
                                             'ps-product__price',
                                             product.sale_price ? 'sale' : ''
                                         ]"
-                                        >${{
+                                        >{{
                                             product.sale_price ? product.sale_price : product.price
-                                        }}</span
+                                        }}тг.</span
                                     >
                                     <span class="ps-product__del" v-if="product.sale_price"
-                                        >${{ product.price }}</span
+                                        >{{ product.price }}тг.</span
                                     >
                                 </td>
                                 <td class="ps-product__status"> 
-                                    <span class="ps-product__instock" v-if="index != 0">In Stock</span>
-                                    <span class="ps-product__outstock" v-else>Out of stock</span>
+                                    <span class="ps-product__instock" v-if="index != 0">В наличии</span>
+                                    <span class="ps-product__outstock" v-else>Нет в наличии</span>
                                 </td>
                                 <td class="ps-product__cart">
-                                    <button class="ps-btn" @click="addToCart(product)">Add to cart</button>
+                                    <button class="ps-btn" @click="addToCart(product)">Добавить в корзину</button>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
-                </div>
-                <div class="ps-wishlist__share">
-                    <label>Share on:</label>
-                    <social-icon-color />
                 </div>
             </div>
         </div>
@@ -89,7 +85,7 @@ export default {
                 {
                     url: '/shop/wishlist',
                     extraClass: 'active',
-                    text: 'Wishlist'
+                    text: 'Список желаний'
                 }
             ]
         }

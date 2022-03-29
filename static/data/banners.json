@@ -1,6 +1,5 @@
 {
-    "home1Banner": [
-        {
+    "home1Banner": [{
             "title": "Candid <br/> Whitening Kit",
             "desc": "Only in this week. Don’t misss!",
             "shop": "bg-warning",
@@ -20,8 +19,7 @@
             "title": "Antibacterial<br/> Medical Mask",
             "desc": "Just a few seconds to measure your body temperature.",
             "shop": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -42,8 +40,7 @@
             "title": "Get rid of bacteria <br/>in your home",
             "desc": "Get rid of all bacteria!",
             "shop": "bg-white",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -61,8 +58,7 @@
             "bgColor": "#FFCC00"
         }
     ],
-    "home2Banner": [
-        {
+    "home2Banner": [{
             "title": "PowerSteel <br/> X-tra 200 Brush",
             "desc": "Only in this week. Don’t misss!",
             "cart": "bg-yellow",
@@ -84,8 +80,7 @@
             "title": "Fully equipped <br/> of ophthalmic rooms",
             "desc": "Only in this week. Don’t misss!",
             "shop": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -106,8 +101,7 @@
             "title": "Antibacterial <br/> Medical Mask",
             "desc": "Only in this week. Don’t misss!",
             "cart": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -128,13 +122,11 @@
             "filter": "filter: invert(60%) sepia(75%) saturate(1000%) hue-rotate(360deg) brightness(100%) contrast(100%);"
         }
     ],
-    "home3Banner": [
-        {
+    "home3Banner": [{
             "title": "Antibacterial<br/> Medical Mask",
             "desc": "Just a few seconds to measure your body temperature.",
             "shop": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -170,13 +162,11 @@
             "textColor": "text-white"
         }
     ],
-    "home4Banner": [
-        {
+    "home4Banner": [{
             "title": "Get rid of bacteria <br/>in your home",
             "desc": "Get rid of all bacteria!",
             "shop": "bg-white",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -198,8 +188,7 @@
             "title": "Antibacterial<br/> Medical Mask",
             "desc": "Just a few seconds to measure your body temperature.",
             "shop": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -233,13 +222,11 @@
             "bgColor": "#DAECFA"
         }
     ],
-    "home5Banner": [
-        {
+    "home5Banner": [{
             "title": "Fully equipped<br/> of ophthalmic <br/>rooms",
             "desc": "Only in this week. Don’t misss!",
             "shop": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -260,8 +247,7 @@
             "title": "Get rid of bacteria <br/>in your home",
             "desc": "Get rid of all bacteria!",
             "shop": "bg-white",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -296,13 +282,11 @@
             "bgColor": "#DAECFA"
         }
     ],
-    "home6Banner": [
-        {
+    "home6Banner": [{
             "title": "Antibacterial <br/>Medical Mask",
             "desc": "Just a few seconds to measure your <br/>body temperature.",
             "shop": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -347,13 +331,11 @@
             "imgbg": "fuild"
         }
     ],
-    "home7Banner": [
-        {
+    "home7Banner": [{
             "title": "SonicX900 <br>Electrical Brush",
             "desc": "Now with special price -30%",
             "shop": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -376,8 +358,7 @@
             "baged": "New"
         }
     ],
-    "home4BannerContent": [
-        {
+    "home4BannerContent": [{
             "title": "PowerSteel <br/>X-tra 200 Brush",
             "shop": "bg-yellow",
             "price": {
@@ -392,14 +373,13 @@
             "img": "/img/promotion/home4-banner-4.jpg",
             "bgColor": "#103178",
             "textColor": "text-white",
-            "textShop": "Add to cart"
+            "textShop": "Добавить в корзину"
         },
         {
             "title": "Fully equipped <br/>of ophthalmic rooms",
             "shop": "bg-warning",
-            "textShop": "Add to cart",
-            "button": [
-                {
+            "textShop": "Добавить в корзину",
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -418,9 +398,8 @@
         {
             "title": "Antibacterial <br/>Medical Mask",
             "shop": "bg-warning",
-            "textShop": "Add to cart",
-            "button": [
-                {
+            "textShop": "Добавить в корзину",
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -442,9 +421,8 @@
         {
             "title": "Super Sonic Brush <br/>X200 Higenic",
             "shop": "bg-warning",
-            "textShop": "Add to cart",
-            "button": [
-                {
+            "textShop": "Добавить в корзину",
+            "button": [{
                     "icon": "/img/icon/tooth-brush-icon.png",
                     "text": "Anti-Bacterial"
                 },
@@ -461,13 +439,11 @@
             "bgColor": "#FFCC00"
         }
     ],
-    "home5BannerContent": [
-        {
+    "home5BannerContent": [{
             "title": "Take care of <br/>yourself and <br/>your loved ones",
             "shop": "bg-yellow",
             "textShop": "Face mask",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -500,12 +476,10 @@
             "textColor": "text-white"
         }
     ],
-    "home6BannerContent": [
-        {
+    "home6BannerContent": [{
             "title": "The best quality <br/>masks at the<br/>best price",
             "shop": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/virus.svg",
                     "text": "Up to 5 users simultaneously"
                 },
@@ -532,15 +506,14 @@
             "img": "/img/promotion/home4-banner-4.jpg",
             "bgColor": "#103178",
             "textColor": "text-white",
-            "textShop": "Add to cart"
+            "textShop": "Добавить в корзину"
         },
         {
             "title": "Your one and only <br>online pharmacy!",
             "desc": "Just a few seconds to measure<br>your body temperature.",
             "shop": "bg-yellow",
             "textShop": "About",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/virus.svg",
                     "text": "Up to 5 users simultaneously"
                 },
@@ -553,13 +526,11 @@
             "img": "/img/girl-face-mask.png"
         }
     ],
-    "home8Banner": [
-        {
+    "home8Banner": [{
             "title": "Antibacterial <br/> Medical Mask",
             "desc": "Only in this week. Don’t misss!",
             "cart": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -603,8 +574,7 @@
             "title": "Fully equipped <br/> of ophthalmic rooms",
             "desc": "Only in this week. Don’t misss!",
             "shop": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -622,13 +592,11 @@
             "bgColor": "#F0F2F5"
         }
     ],
-    "home12Banner": [
-        {
+    "home12Banner": [{
             "title": "Antibacterial <br/>Medical Mask",
             "desc": "Just a few seconds to measure your <br/>body temperature.",
             "shop": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -647,8 +615,7 @@
             "title": "Antibacterial <br/>Medical Mask",
             "desc": "Just a few seconds to measure your <br/>body temperature.",
             "shop": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -664,8 +631,7 @@
             "filter": "filter: invert(9%) sepia(19%) saturate(9%) hue-rotate(352deg) brightness(101%) contrast(91%);"
         }
     ],
-    "home13Banner": [
-        {
+    "home13Banner": [{
             "title": "Premium CBD <br/>Oil 1000mg",
             "desc": "Only in this week. Don’t misss!",
             "shop": "bg-warning",
@@ -705,8 +671,7 @@
             "title": "Mouth Rinse <br/>12 hours",
             "desc": "Only in this week. Don’t misss!",
             "shop": "bg-warning",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/bacterial.svg",
                     "text": "Anti-Bacterial"
                 },
@@ -722,13 +687,11 @@
             "filter": "filter: brightness(0) invert(1);"
         }
     ],
-    "home13BannerContent": [
-        {
+    "home13BannerContent": [{
             "title": "Take care <br/>of yourself and your skin ",
             "shop": "bg-white",
             "textShop": "Sunscreens",
-            "button": [
-                {
+            "button": [{
                     "icon": "/img/icon/icon11.png",
                     "text": "Best quality"
                 },
@@ -748,8 +711,7 @@
             "bgColor": "#182947"
         }
     ],
-    "home13BannerBottom": [
-        {
+    "home13BannerBottom": [{
             "banner": "/img/promotion/banner-home13-1.jpg",
             "title": "Boxed water <br/>is better!",
             "btnName": "Shop now",
@@ -778,8 +740,7 @@
             "btnClass": "btn-green"
         }
     ],
-    "home14Top": [
-        {
+    "home14Top": [{
             "banner": "/img/promotion/bg-promo1.jpg",
             "title": "Power Effect <br/>Pro Series",
             "btnName": "More",
@@ -809,8 +770,7 @@
             "delColor": "text-white"
         }
     ],
-    "home14center": [
-        {
+    "home14center": [{
             "banner": "/img/promotion/bg-banner20.jpg",
             "title": "FaceWash <br/>up to -20%",
             "btnName": "More",
@@ -842,8 +802,7 @@
             "delColor": "text-dark"
         }
     ],
-    "home14Bottom": [
-        {
+    "home14Bottom": [{
             "banner": "/img/promotion/bg-banner23.jpg",
             "title": "PowerUp <br/>Lemon",
             "btnName": "Buy now",
@@ -888,8 +847,7 @@
             "delColor": "text-dark"
         }
     ],
-    "home15Banner": [
-        {
+    "home15Banner": [{
             "title": "Premium CBD <br/>Oil 1000mg",
             "desc": "Only in this week. Don’t misss!",
             "shop": "bg-white text-dark",
@@ -921,8 +879,7 @@
             "textColor": "text-dark"
         }
     ],
-    "home15Top": [
-        {
+    "home15Top": [{
             "banner": "/img/promotion/promo12.jpg",
             "title": "Pure Natural <br/>Creams",
             "btnName": "Shop now",

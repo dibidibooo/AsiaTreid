@@ -45,11 +45,11 @@
                             </div>
                             <div class="ps-checkout__row ps-product" v-for="product in cartProducts" :key="product.id">
                                 <div class="ps-product__name">{{ product.name }} x <span>{{ productQuantity(product) }}</span></div>
-                                <div class="ps-product__price">${{ productTotal(product) }}</div>
+                                <div class="ps-product__price">{{ productTotal(product) }}тг.</div>
                             </div>
                             <div class="ps-checkout__row">
                                 <div class="ps-title">Цена</div>
-                                <div class="ps-product__price">${{ totalCart }}</div>
+                                <div class="ps-product__price">{{ totalCart }}тг.</div>
                             </div>
                             <div class="ps-checkout__row">
                                 <div class="ps-title">Доставка</div>

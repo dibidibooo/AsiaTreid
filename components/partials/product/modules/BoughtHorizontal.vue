@@ -1,6 +1,6 @@
 <template>
     <section :class="['ps-bought', extraClass]">
-        <h3 class="ps-bought__title">Frequently bought together</h3>
+        <h3 class="ps-bought__title">Вместе с этим часто покупают</h3>
         <div class="ps-bought__wapper">
             <div class="ps-bought__thumbnail">
                 <ul v-if="loading">
@@ -36,34 +36,34 @@
                             />
                             <label class="form-check-label" :for="item.id"
                                 ><span class="ps-bought__name"
-                                    >{{ index == 0 ? 'This Product: ' : '' }}
+                                    >{{ index == 0 ? 'То что вы смотрите: ' : '' }}
                                     {{ item.name }} </span
                                 >–
                                 <span
                                     v-if="item.sale_price"
                                     class="ps-bought__del"
-                                    >${{ item.sale_price }}</span
+                                    >{{ item.sale_price }}тг.</span
                                 >
                                 <span
                                     :class="[
                                         'ps-bought__price',
                                         item.sale_price ? 'sale' : ''
                                     ]"
-                                    >${{
+                                    >{{
                                         item.sale_price
                                             ? item.sale_price
                                             : item.price
-                                    }}</span
+                                    }}тг.</span
                                 >
                             </label>
                         </div>
                     </li>
                 </ul>
                 <div class="ps-bought__submit">
-                    <label>Buy selected for: </label>
-                    <div class="ps-bought__total">${{ totalItemPrice }}</div>
+                    <label>Купить выбранное за: </label>
+                    <div class="ps-bought__total">{{ totalItemPrice }}тг.</div>
                     <a class="ps-btn ps-btn--warning" href="#" @click.prevent="handleAddToCart()"
-                        >Add all to cart</a
+                        >Добавить все в корзину</a
                     >
                 </div>
             </div>

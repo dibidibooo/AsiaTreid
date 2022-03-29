@@ -13,7 +13,7 @@
                 <div class="ps-addcart__overlay">
                     <div class="ps-addcart__loading"></div>
                 </div>
-                <p class="ps-addcart__noti"> <i class="fa fa-check"> </i>Added to cart succesfully</p>
+                <p class="ps-addcart__noti"> <i class="fa fa-check"> </i>Успешно добавлено в корзину</p>
                 <div class="ps-addcart__product">
                     <div class="ps-product ps-product--standard">
                         <div class="ps-product__thumbnail">
@@ -37,20 +37,20 @@
                                         'ps-product__price',
                                         productOverview.sale_price ? 'sale' : ''
                                     ]"
-                                    >${{
+                                    >{{
                                         productOverview.sale_price ? productOverview.sale_price : productOverview.price
-                                    }}</span
+                                    }}тг.</span
                                 >
                                 <span class="ps-product__del" v-if="productOverview.sale_price"
-                                    >${{ productOverview.price }}</span
+                                    >{{ productOverview.price }}тг.</span
                                 >
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="ps-addcart__header">
-                    <h3>Want o add one of these?</h3>
-                    <p>People who buy this product buy also:</p>
+                    <h3>Хотите добавить один из этих?</h3>
+                    <p>Люди, которые покупают этот продукт, покупают также:</p>
                 </div>
                 <div class="ps-addcart__content">
                     <div class="ps-swiper">
@@ -64,8 +64,8 @@
                     </div>
                 </div>
                 <div class="ps-addcart__footer">
-                    <a class="ps-btn ps-btn--border" href="#" @click.prevent="closeModel(false)">No thanks :(</a>
-                    <nuxt-link class="ps-btn ps-btn--warning" to="/shop/shopping-cart">Continue to Cart</nuxt-link>
+                    <a class="ps-btn ps-btn--border" href="#" @click.prevent="closeModel(false)">Нет, спасибо :(</a>
+                    <nuxt-link class="ps-btn ps-btn--warning" to="/shop/shopping-cart">Перейти в корзину</nuxt-link>
                 </div>
             </div>
         </v-card>

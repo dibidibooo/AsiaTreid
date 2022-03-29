@@ -20,7 +20,7 @@
                     class="ps-product__item"
                     data-toggle="tooltip"
                     data-placement="left"
-                    title="Wishlist"
+                    title="Список желаний"
                 >
                     <a href="#" @click.prevent="addProductToWishlist()"
                         ><i class="fa fa-heart-o"></i
@@ -50,7 +50,7 @@
                     class="ps-product__item"
                     data-toggle="tooltip"
                     data-placement="left"
-                    title="Add to cart"
+                    title="Добавить в корзину"
                 >
                     <a href="#" @click.prevent="addToCart()"
                         ><i class="fa fa-shopping-basket"></i
@@ -104,10 +104,7 @@
             </div>
             <div class="ps-product__rating">
                 <rating-component :value="rating" />
-                <span class="ps-product__review">(Reviews)</span>
-            </div>
-            <div class="ps-product__footer" v-if="product.footer">
-                No of pcs <br />available <span>{{ product.available }}</span>
+                <span class="ps-product__review">(Отзывы)</span>
             </div>
             <div class="ps-product__desc">
                 <ul class="ps-product__list">
@@ -141,7 +138,7 @@
                         class="ps-btn ps-btn--warning"
                         href="#"
                         @click.prevent="addToCart()"
-                        >Add to cart</a
+                        >Добавить в корзину</a
                     >
                 </div>
                 <!-- <div class="ps-product__item cart">

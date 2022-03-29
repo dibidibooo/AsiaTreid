@@ -15,7 +15,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-8">
-                        <div class="ps-contact__map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.822845645748!2d-97.1301607845029!3d32.770434891627616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e7dcf27b929d9%3A0xc63407d6f47753b9!2s1487%20Rocky%20Canyon%20Rd%2C%20Arlington%2C%20TX%2076012%2C%20USA!5e0!3m2!1sen!2s!4v1616124426616!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                        <div class="ps-contact__map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1411.4862458561613!2d76.79597468790757!3d43.25788028830372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883418bfd5a32b5%3A0x74df36ada97ca4d3!2z0YPQuy4g0LbQtdC90LjRgSwg0JDQu9Cz0LDQsdCw0YE!5e0!3m2!1sru!2skz!4v1648552707264!5m2!1sru!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                     </div>
                 </div>
             </div>
@@ -104,12 +104,12 @@ export default {
             breadcrumb: [
                 {
                     url: '/',
-                    text: 'Home'
+                    text: 'Главная'
                 },
                 {
                     url: `/contact-us`,
                     extraClass: 'active',
-                    text: 'Contact us'
+                    text: 'Контакты'
                 }
             ],
             name: null,

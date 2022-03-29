@@ -15,7 +15,7 @@
 
             <div class="ps-addcart__body" v-if="productOverview">
                 <p class="ps-addcart__noti">
-                    <i class="fa fa-check"> </i>Added to cart succesfully
+                    <i class="fa fa-check"> </i>Успешно добавлено в корзину
                 </p>
                 <div class="row">
                     <div class="col-12 col-md-6">
