@@ -14,7 +14,7 @@ export default {
         handleSubscribe(email) {
             console.log('email', email);
             const message = {
-                message: 'Thank you for you subscribe.',
+                message: 'Спасибо за подписку.',
                 icon: 'icon-shield-check'
             }
             this.$store.commit('app/setMessageNotify', message)

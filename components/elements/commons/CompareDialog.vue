@@ -36,12 +36,12 @@
                                                         'ps-product__price',
                                                         product.sale_price ? 'sale' : ''
                                                     ]"
-                                                    >${{
+                                                    >{{
                                                         product.sale_price ? product.sale_price : product.price
-                                                    }}</span
+                                                    }}тг.</span
                                                 >
                                                 <span class="ps-product__del" v-if="product.sale_price"
-                                                    >${{ product.price }}</span
+                                                    >{{ product.price }}тг.</span
                                                 >
                                             </div>
                                             <button class="ps-btn ps-btn--warning" @click.prevent="addToCart(product)">Добавить в корзину</button>
@@ -92,15 +92,15 @@
                                     <th>Price</th>
                                     <td v-for="product in compareItems" :key="product.id">
                                         <span class="ps-product__del" v-if="product.sale_price"
-                                            >${{ product.price }}</span>
+                                            >{{ product.price }}тг.</span>
                                         <span
                                             :class="[
                                                 'ps-product__price',
                                                 product.sale_price ? 'sale' : ''
                                             ]"
-                                            >${{
+                                            >{{
                                                 product.sale_price ? product.sale_price : product.price
-                                            }}</span>
+                                            }}тг.</span>
                                     </td>
                                 </tr>
                             </tbody>

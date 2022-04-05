@@ -49,7 +49,6 @@
                     :dataList="featuredProduct"
                 />
                 <latest-reviews-v1 />
-                <instagram />
                 <newsletter />
             </div>
         </div>
@@ -71,7 +70,6 @@ import BestDealsProductCarousel from '~/components/partials/homepage/BestDealsPr
 import BestsellersProduct from '~/components/partials/homepage/BestsellersProduct';
 import FeaturedProduct from '~/components/partials/homepage/FeaturedProduct';
 import LatestReviewsV1 from '~/components/partials/homepage/LatestReviewsV1';
-import Instagram from '~/components/partials/homepage/Instagram';
 import Newsletter from '~/components/partials/homepage/Newsletter';
 import { home1Banner } from '~/static/data/banners.json';
 
@@ -90,7 +88,6 @@ export default {
         BestsellersProduct,
         FeaturedProduct,
         LatestReviewsV1,
-        Instagram,
         Newsletter
     },
     data() {

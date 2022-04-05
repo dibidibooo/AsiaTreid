@@ -46,7 +46,6 @@
             <language-dialog />
             <currency-dialog />
             <quick-view />
-            <compare-dialog />
             <add-product-v1 />
             <add-product-v2 />
             <notify-dialog />
@@ -61,7 +60,6 @@ import MobileDrawer from '~/components/shared/mobile/MobileDrawer';
 import QuickView from '~/components/elements/commons/QuickView';
 import ScrollTop from '~/components/shared/ScrollTop';
 import LanguageDialog from '~/components/elements/commons/LanguageDialog';
-import CompareDialog from '~/components/elements/commons/CompareDialog';
 import AddProductV1 from '~/components/elements/commons/AddProductV1';
 import AddProductV2 from '~/components/elements/commons/AddProductV2';
 import NotifyDialog from '~/components/elements/commons/NotifyDialog';
@@ -94,7 +92,6 @@ export default {
         QuickView,
         ScrollTop,
         LanguageDialog,
-        CompareDialog,
         AddProductV1,
         AddProductV2,
         NotifyDialog,

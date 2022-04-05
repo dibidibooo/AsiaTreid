@@ -33,7 +33,7 @@
                 <div v-if="design.priceTo">
                     <span
                         class="ps-product__price sale"
-                        >{{ product.sale_price }} - ${{product.price}}тг.</span
+                        >{{ product.sale_price }} - {{product.price}}тг.</span
                     >
                 </div>
                 <div v-else>

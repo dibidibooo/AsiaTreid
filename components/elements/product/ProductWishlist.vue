@@ -34,14 +34,14 @@
                             'ps-product__price',
                             product.sale_price ? 'sale' : ''
                         ]"
-                        >${{
+                        >{{
                             product.sale_price
                                 ? product.sale_price
                                 : product.price
-                        }}</span
+                        }}тг.</span
                     >
                     <span class="ps-product__del" v-if="product.sale_price"
-                        >${{ product.price }}</span
+                        >{{ product.price }}тг.</span
                     >
                 </div>
             </div>

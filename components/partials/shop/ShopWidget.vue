@@ -26,9 +26,9 @@
                         ></v-range-slider>
                     </div>
                     <div class="ps-widget__input">
-                        <span class="ps-price" id="slide-price-min">${{ range[0] }}</span
+                        <span class="ps-price" id="slide-price-min">{{ range[0] }}тг.</span
                         ><span class="bridge">-</span
-                        ><span class="ps-price" id="slide-price-max">${{ range[1] }}</span>
+                        ><span class="ps-price" id="slide-price-max">{{ range[1] }}тг.</span>
                     </div>
                     <button class="ps-widget__filter" @click="handleFilterPrice()">Filter</button>
                 </div>

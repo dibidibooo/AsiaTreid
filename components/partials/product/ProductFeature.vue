@@ -14,12 +14,12 @@
         <div class="ps-product__meta">
             <span
                 :class="['ps-product__price', product.sale_price ? 'sale' : '']"
-                >${{
+                >{{
                     product.sale_price ? product.sale_price : product.price
-                }}</span
+                }}тг.</span
             >
             <span class="ps-product__del" v-if="product.sale_price"
-                >${{ product.price }}</span
+                >{{ product.price }}тг.</span
             >
         </div>
         <div class="ps-product__variable" v-if="feature.variable">
@@ -74,7 +74,7 @@
             </div>
         </template>
         <div class="ps-product__quantity">
-            <h6>Quantity</h6>
+            <h6>Количество</h6>
             <div class="def-number-input number-input safari_only">
                 <button
                     class="minus"

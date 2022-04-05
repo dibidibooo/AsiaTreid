@@ -401,102 +401,6 @@
                             "url": "/product/layout/product-sold-out/8"
                         }
                     ]
-                },
-                {
-                    "heading": "Blog",
-                    "megaItems": [{
-                            "text": "Blog sidebar 1",
-                            "url": "/blog/sidebar-1"
-                        },
-                        {
-                            "text": "Blog sidebar 2",
-                            "url": "/blog/sidebar-2"
-                        },
-                        {
-                            "text": "Blog Masonry",
-                            "url": "/blog/masonry"
-                        },
-                        {
-                            "text": "Blog post 1",
-                            "url": "/blog/post-detail-1/2"
-                        },
-                        {
-                            "text": "Blog post 2",
-                            "url": "/blog/post-detail-2/2"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Home",
-                    "megaItems": [{
-                            "text": "Home 01",
-                            "url": "/"
-                        },
-                        {
-                            "text": "Home 02",
-                            "url": "/homepage/home-2"
-                        },
-                        {
-                            "text": "Home 03",
-                            "url": "/homepage/home-3"
-                        },
-                        {
-                            "text": "Home 04",
-                            "url": "/homepage/home-4"
-                        },
-                        {
-                            "text": "Home 05",
-                            "url": "/homepage/home-5"
-                        },
-                        {
-                            "text": "Home 06",
-                            "url": "/homepage/home-6"
-                        },
-                        {
-                            "text": "Home 07",
-                            "url": "/homepage/home-7"
-                        },
-                        {
-                            "text": "Home 08",
-                            "url": "/homepage/home-8",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 09",
-                            "url": "/homepage/home-9",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 10",
-                            "url": "/homepage/home-10",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 11",
-                            "url": "/homepage/home-11",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 12",
-                            "url": "/homepage/home-12",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 13",
-                            "url": "/homepage/home-13",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 14",
-                            "url": "/homepage/home-14",
-                            "new": true
-                        },
-                        {
-                            "text": "Home 15",
-                            "url": "/homepage/home-15",
-                            "new": true
-                        }
-                    ]
                 }
             ]
         },
@@ -553,11 +457,6 @@
                     "collection": true
                 }
             ]
-        },
-        {
-            "text": "Blog",
-            "url": "/blog/sidebar-1",
-            "extraClass": "has-mega-menu"
         },
         {
             "text": "Contact",
@@ -763,11 +662,6 @@
             ]
         },
         {
-            "text": "Blog",
-            "url": "/blog/sidebar-1",
-            "extraClass": "menu-item-has-children"
-        },
-        {
             "text": "Contact",
             "url": "/contact-us",
             "extraClass": "menu-item-has-children"
@@ -796,12 +690,6 @@
         {
             "text": "Order Tracking",
             "url": "/",
-            "extraClass": "nav-item",
-            "linkClass": "nav-link"
-        },
-        {
-            "text": "Blog",
-            "url": "/blog/sidebar-1",
             "extraClass": "nav-item",
             "linkClass": "nav-link"
         },
@@ -930,30 +818,6 @@
                     {
                         "text": "Product sold out",
                         "url": "/product/layout/product-sold-out/8"
-                    }
-                ]
-            },
-            {
-                "heading": "Blog",
-                "megaItems": [{
-                        "text": "Blog sidebar 1",
-                        "url": "/blog/sidebar-1"
-                    },
-                    {
-                        "text": "Blog sidebar 2",
-                        "url": "/blog/sidebar-2"
-                    },
-                    {
-                        "text": "Blog Masonry",
-                        "url": "/blog/masonry"
-                    },
-                    {
-                        "text": "Blog post 1",
-                        "url": "/blog/post-detail-1/2"
-                    },
-                    {
-                        "text": "Blog post 2",
-                        "url": "/blog/post-detail-2/2"
                     }
                 ]
             },
@@ -1153,30 +1017,6 @@
                 ]
             },
             {
-                "heading": "Blog",
-                "megaItems": [{
-                        "text": "Blog sidebar 1",
-                        "url": "/blog/sidebar-1"
-                    },
-                    {
-                        "text": "Blog sidebar 2",
-                        "url": "/blog/sidebar-2"
-                    },
-                    {
-                        "text": "Blog Masonry",
-                        "url": "/blog/masonry"
-                    },
-                    {
-                        "text": "Blog post 1",
-                        "url": "/blog/post-detail-1/2"
-                    },
-                    {
-                        "text": "Blog post 2",
-                        "url": "/blog/post-detail-2/2"
-                    }
-                ]
-            },
-            {
                 "heading": "Home",
                 "megaItems": [{
                         "text": "Home 01",
@@ -1372,30 +1212,6 @@
                     ]
                 },
                 {
-                    "heading": "Blog",
-                    "megaItems": [{
-                            "text": "Blog sidebar 1",
-                            "url": "/blog/sidebar-1"
-                        },
-                        {
-                            "text": "Blog sidebar 2",
-                            "url": "/blog/sidebar-2"
-                        },
-                        {
-                            "text": "Blog Masonry",
-                            "url": "/blog/masonry"
-                        },
-                        {
-                            "text": "Blog post 1",
-                            "url": "/blog/post-detail-1/2"
-                        },
-                        {
-                            "text": "Blog post 2",
-                            "url": "/blog/post-detail-2/2"
-                        }
-                    ]
-                },
-                {
                     "heading": "Home",
                     "megaItems": [{
                             "text": "Home 01",
@@ -1468,11 +1284,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "text": "Blog",
-            "url": "/blog/sidebar-1",
-            "extraClass": "nav-item"
         },
         {
             "text": "Contact",

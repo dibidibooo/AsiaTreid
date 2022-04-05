@@ -34,7 +34,7 @@
                 <div class="ps-product__badge"></div>
             </div>
             <div class="ps-product__info">
-                <nuxt-link class="ps-product__branch" to="/">MyMedi</nuxt-link>
+                <nuxt-link class="ps-product__branch" to="/">Asia-Treid</nuxt-link>
                 <h5 class="ps-product__title">
                     <nuxt-link :to="`/product/layout/layout-1/${product.id}`">{{
                         product.name
@@ -42,11 +42,11 @@
                 </h5>
                 <div class="ps-product__rating">
                     <rating-component :value="rating" />
-                    <span class="ps-product__review">(Reviews)</span>
+                    <span class="ps-product__review">(Оценка)</span>
                 </div>
                 <div class="ps-product__desc">
                     <ul class="ps-product__list">
-                        <li>Study history up to 30 days</li>
+                        <li>Study histvfvfory up to 30 days</li>
                         <li>Up to 5 users simultaneously</li>
                         <li>Has HEALTH certificate</li>
                     </ul>
@@ -60,16 +60,16 @@
                         'ps-product__price',
                         product.sale_price ? 'sale' : ''
                     ]"
-                    >${{
+                    >{{
                         product.sale_price ? product.sale_price : product.price
-                    }}</span
+                    }}тг.</span
                 >
                 <span class="ps-product__del" v-if="product.sale_price"
-                    >${{ product.price }}</span
+                    >{{ product.price }}тг.</span
                 >
             </div>
             <div class="ps-product__quantity">
-                <h6>Quantity</h6>
+                <h6>Количество</h6>
                 <div class="def-number-input number-input safari_only">
                     <button
                         class="minus"

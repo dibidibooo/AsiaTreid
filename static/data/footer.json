@@ -48,28 +48,7 @@
         ]
     },
     "store": {
-        "title": "Store",
-        "items": [{
-                "text": "Affiliate",
-                "url": "#"
-            },
-            {
-                "text": "Bestsellers",
-                "url": "#"
-            },
-            {
-                "text": "Discount",
-                "url": "#"
-            },
-            {
-                "text": "Недавно просмотренные",
-                "url": "#"
-            },
-            {
-                "text": "Sale",
-                "url": "#"
-            }
-        ]
+        "items": []
     },
     "woundCare": {
         "title": "Wound Care",

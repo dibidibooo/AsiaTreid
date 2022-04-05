@@ -4,7 +4,7 @@
             <div class="ps-cart__icon">
                 <i class="fa fa-shopping-basket"></i>
             </div>
-            <p class="ps-cart__text">Your cart is currently empty</p>
+            <p class="ps-cart__text">Ваша корзина на данный момент пуста</p>
         </div>
         <template v-else>
             <ul class="ps-cart__items">
@@ -17,12 +17,10 @@
                 </li>
             </ul>
             <div class="ps-cart__total">
-                <span>Subtotal </span><span>${{totalCart}}</span>
+                <span>Сумма </span><span>{{totalCart}}тг.</span>
             </div>
             <div class="ps-cart__footer">
-                <nuxt-link class="ps-btn ps-btn--outline" to="/shop/shopping-cart"
-                    >View Cart</nuxt-link
-                ><nuxt-link class="ps-btn ps-btn--warning" to="/shop/checkout">Checkout</nuxt-link>
+               <nuxt-link class="ps-btn ps-btn--warning" to="/shop/checkout">Перейти к оформлению</nuxt-link>
             </div>
         </template>
     </div>

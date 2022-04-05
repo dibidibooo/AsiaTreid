@@ -17,31 +17,8 @@
                 <img :src="item.icon" alt />
             </a>
         </div>
-        <div class="ps-categogy__onsale">
-            <div class="custom-control custom-checkbox">
-                <input
-                    class="custom-control-input"
-                    type="checkbox"
-                    id="onSaleProduct"
-                    v-model="onSaleProduct"
-                />
-                <label class="custom-control-label" for="onSaleProduct"
-                    >Show only products on sale</label
-                >
-            </div>
-        </div>
-        <div class="ps-categogy__sort">
-            <span>Sort by</span>
-            <v-select
-                dense
-                :items="sortItems"
-                item-text="text"
-                item-value="value"
-                v-model="getSort"
-            ></v-select>
-        </div>
         <div class="ps-categogy__show">
-            <span>Show</span>
+            <span>Показать</span>
             <v-select
                 dense
                 :items="showItems"

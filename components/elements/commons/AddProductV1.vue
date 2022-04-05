@@ -1,7 +1,7 @@
 <template>
     <v-dialog
         v-model="dialog"
-        max-width="1100"
+        max-width="500"
         content-class="ps-dialog ps-addcart"
     >
         <v-card class="ps-dialog__body">
@@ -23,10 +23,6 @@
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="ps-addcart__content">
-                            <p>There are two items in your cart.</p>
-                            <p class="ps-addcart__total">
-                                Total: <span class="ps-price">${{ totalPrice }}</span>
-                            </p>
                             <a
                                 class="ps-btn ps-btn--border"
                                 href="#"

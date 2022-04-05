@@ -2,14 +2,13 @@
     <div class="ps-product--extension">
         <div class="ps-product__delivery">
             <div class="ps-delivery__item">
-                <i class="icon-wallet"></i>100% <br />Money back
+                <i class="icon-wallet"></i>100% возврат денег
             </div>
             <div class="ps-delivery__item">
-                <i class="icon-bag2"></i>Non-contact <br />shipping
+                <i class="icon-bag2"></i>Бесконтактная доставка
             </div>
             <div class="ps-delivery__item">
-                <i class="icon-truck"></i>Free delivery for <br />order over
-                $200
+                <i class="icon-truck"></i>Бесплатная доставка по договоренности
             </div>
         </div>
         <div class="ps-product__payment">
