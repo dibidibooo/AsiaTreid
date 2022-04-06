@@ -1,61 +1,27 @@
 {
     "home1Banner": [{
-            "title": "Candid <br/> Whitening Kit",
-            "desc": "Only in this week. Don’t misss!",
+            "title": "Машина углошлифовальная УШМ",
+            "desc": "Только на этой неделе. Не пропустите!",
             "shop": "bg-warning",
             "price": {
-                "del": "$29.99",
-                "ins": "$15.99"
+                "del": "81800 тг.",
+                "ins": "57265 тг."
             },
             "percent": {
                 "text": "-30%",
                 "extraClass": "bg-warning ps-center"
             },
-            "img": "/img/promotion/slide1.png",
+            "img": "/img/promotion/slide18.png",
             "round": "/img/round2.png",
             "bgColor": "#DAECFA"
         },
         {
-            "title": "Antibacterial<br/> Medical Mask",
-            "desc": "Just a few seconds to measure your body temperature.",
+            "title": "Все для дома",
+            "desc": "Все для строительства и ремонта, <br> тысяча мелочей для дома.",
             "shop": "bg-warning",
-            "button": [{
-                    "icon": "/img/icon/bacterial.svg",
-                    "text": "Anti-Bacterial"
-                },
-                {
-                    "icon": "/img/icon/virus.svg",
-                    "text": "Anti-Virus"
-                }
-            ],
-            "percent": {
-                "text": "<small>only</small>$25",
-                "extraClass": "bg-yellow ps-top"
-            },
-            "img": "/img/promotion/slide3.png",
+            "img": "/img/promotion/slide19.png",
             "round": "/img/round5.png",
             "bgColor": "#F0F2F5"
-        },
-        {
-            "title": "Get rid of bacteria <br/>in your home",
-            "desc": "Get rid of all bacteria!",
-            "shop": "bg-white",
-            "button": [{
-                    "icon": "/img/icon/bacterial.svg",
-                    "text": "Anti-Bacterial"
-                },
-                {
-                    "icon": "/img/icon/virus.svg",
-                    "text": "Anti-Virus"
-                }
-            ],
-            "percent": {
-                "text": "-25%",
-                "extraClass": "bg-primary"
-            },
-            "img": "/img/promotion/slide4.png",
-            "round": "/img/round2.png",
-            "bgColor": "#FFCC00"
         }
     ],
     "home2Banner": [{

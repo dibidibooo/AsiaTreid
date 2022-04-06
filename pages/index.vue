@@ -95,24 +95,24 @@ export default {
             banners: home1Banner,
             promotionTop: [
                 {
-                    banner: '/img/promotion/bg-banner1.jpg',
-                    badge: 'New',
-                    title: 'Vaprorizer <br/>Charger <br/>X200 5KW',
-                    btnName: 'More',
+                    banner: '/img/promotion/bgbanner3.png',
+                    badge: 'Новое поступление',
+                    title: 'Строительные <br>материалы',
+                    btnName: 'Подробнее',
                     classTitle: 'mb-20'
                 },
                 {
-                    banner: '/img/promotion/bg-banner2.jpg',
-                    title: 'Digital <br/>Thermometer <br/>X30-Pro',
-                    btnName: 'Shop now',
+                    banner: '/img/promotion/bgbanner2.png',
+                    title: 'Все для дома',
+                    btnName: 'Подробнее',
                     sale: '-10%'
                 },
                 {
-                    banner: '/img/promotion/bg-banner3.jpg',
-                    title: 'SuperBrush <br/>X200 Higenic',
-                    btnName: 'Shop now',
-                    price: '$119.00',
-                    del: '$129.00',
+                    banner: '/img/promotion/bgbanner1.png',
+                    title: 'Уровнемер скважинный <br>тросовый лотовый',
+                    btnName: 'Подробнее',
+                    price: '275,000',
+                    del: '300,000',
                     classTitle: 'text-white'
                 }
             ],
@@ -121,15 +121,14 @@ export default {
                 {
                     banner: '/img/promotion/bg-banner4.jpg',
                     badge: 'Новинка',
-                    title: 'Избавится от бактерий <br> в твоем доме',
+                    title: 'Все для чистки <br>и уборки',
                     btnName: 'Подробнее',
                     classTitle: 'mb-20'
                 },
                 {
-                    banner: '/img/promotion/bg-banner5.jpg',
-                    title: 'Candid <br/>Whitening Kit',
-                    btnName: 'Shop now',
-                    sale: '-10%'
+                    banner: '/img/promotion/bgbanner1.jpg',
+                    title: 'Канцтовары и <br>прочее для <br>офиса',
+                    btnName: 'Подробнее',
                 }
             ],
             featuredProduct: [],

@@ -1,51 +1,9 @@
 {
     "information": {
-        "title": "Information",
-        "items": [{
-                "text": "About us",
-                "url": "/about-us"
-            },
-            {
-                "text": "Delivery information",
-                "url": "#"
-            },
-            {
-                "text": "Privacy Policy",
-                "url": "#"
-            },
-            {
-                "text": "Sales",
-                "url": "#"
-            },
-            {
-                "text": "Terms & Conditions",
-                "url": "#"
-            }
-        ]
+        "items": []
     },
     "account": {
-        "title": "Account",
-        "items": [{
-                "text": "My account",
-                "url": "#"
-            },
-            {
-                "text": "My orders",
-                "url": "#"
-            },
-            {
-                "text": "Returns",
-                "url": "#"
-            },
-            {
-                "text": "Shipping",
-                "url": "#"
-            },
-            {
-                "text": "Wishlist",
-                "url": "/shop/wishlist"
-            }
-        ]
+        "items": []
     },
     "store": {
         "items": []

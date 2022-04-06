@@ -200,84 +200,6 @@
             "branch": true
         },
         {
-            "text": "Home Medical Supplies",
-            "url": "#",
-            "extraClass": "has-mega-menu",
-            "megaContent": [{
-                    "megaColumn": "col-12 col-sm-3",
-                    "megaItems": [{
-                            "text": "Diagnosis",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Accessories Tools",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Bandages",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Biopsy tools",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Blades",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Blood pressure",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Capsules",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Dental",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Devices",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Diagnostic tests",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Disposable products",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Education",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Endoscopes",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Equipment",
-                            "url": "/shop/list"
-                        },
-                        {
-                            "text": "Show all",
-                            "url": "/shop/list"
-                        }
-                    ]
-                },
-                {
-                    "megaColumn": "col-12 col-sm-5 col-md-6",
-                    "promo": true
-                },
-                {
-                    "megaColumn": "col-12 col-sm-4 col-md-3",
-                    "product": true
-                }
-            ]
-        },
-        {
             "text": "Shop",
             "url": "/shop",
             "extraClass": "has-mega-menu"
@@ -518,25 +440,6 @@
                             "url": "/shop/list"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "text": "Home Medical Supplies",
-            "url": "#",
-            "extraClass": "menu-item-has-children",
-            "subClass": "sub-menu",
-            "subMenu": [{
-                    "text": "Diagnosis",
-                    "url": "/shop/list"
-                },
-                {
-                    "text": "Accessories Tools",
-                    "url": "/shop/list"
-                },
-                {
-                    "text": "Bandages",
-                    "url": "/shop/list"
                 }
             ]
         },

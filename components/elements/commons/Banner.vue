@@ -21,7 +21,7 @@
                         </div>
                     </div>
                     <a :class="['ps-banner__shop', banner.shop, banner.cart]" href="#" v-if="banner.shop || banner.cart">{{
-                        banner.textShop ? banner.textShop : banner.shop ? 'Shop now' : 'Add to cart'
+                        banner.textShop ? banner.textShop : banner.shop ? 'Купить' : 'Add to cart'
                     }}</a>
                     <div
                         :class="[

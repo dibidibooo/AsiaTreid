@@ -1,206 +1,102 @@
 {
-    "categories": [
-        {
-            "name": "Wound Care",
-            "list": [
-                {
-                    "text": "Accessories",
+    "categories": [{
+            "name": "Товары для дома",
+            "list": [{
+                    "text": "Подушка",
                     "url": "/shop"
                 },
                 {
-                    "text": "Bandages",
+                    "text": "Матрац одноместный",
                     "url": "/shop"
                 },
                 {
-                    "text": "Gypsum foundations",
+                    "text": "Покрывало",
                     "url": "/shop"
                 },
                 {
-                    "text": "Patches and tapes",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Surgical sutures",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Swabs",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Wound healing",
+                    "text": "Салфетки в коробке",
                     "url": "/shop"
                 }
             ]
         },
         {
-            "name": "Higiene",
-            "list": [
-                {
-                    "text": "Disinfectants",
+            "name": "Офисные концтовары",
+            "list": [{
+                    "text": "Полипропиленовая этикетка",
                     "url": "/shop"
                 },
                 {
-                    "text": "Disposable products",
+                    "text": "Корзина для мусора",
                     "url": "/shop"
                 },
                 {
-                    "text": "Face Masks - protective",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Gloves",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Protective clothing",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Sterilization",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Surgical foils",
+                    "text": "Размешиватели одноразовые",
                     "url": "/shop"
                 }
             ]
         },
         {
-            "name": "Laboratory",
-            "list": [
-                {
-                    "text": "Accessories",
+            "name": "Строительство и ремонт",
+            "list": [{
+                    "text": "Перфоратор аккумуляторный",
                     "url": "/shop"
                 },
                 {
-                    "text": "Devices",
+                    "text": "Сварочный аппарат",
                     "url": "/shop"
                 },
                 {
-                    "text": "Diagnostic tests",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Dyes",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Pipettes",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Tubes",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Test-tubes",
+                    "text": "Болт М16х70",
                     "url": "/shop"
                 }
             ]
         },
         {
-            "name": "Tools",
-            "list": [
-                {
-                    "text": "Care products",
+            "name": "Бытовая химия ",
+            "list": [{
+                    "text": "Тарелка одноразовая",
                     "url": "/shop"
                 },
                 {
-                    "text": "Claws and forceps",
+                    "text": "Губка для мытья посуды",
                     "url": "/shop"
                 },
                 {
-                    "text": "Electrosurgery",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Needles",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Plaster tools",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Scalpels, blades",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Scissors",
+                    "text": "Средство моющее фейри ",
                     "url": "/shop"
                 }
             ]
         },
         {
-            "name": "Diagnosis",
-            "list": [
-                {
-                    "text": "Accessories",
+            "name": "Авто",
+            "list": [{
+                    "text": "Коврики напольные а. м. ГАЗель",
                     "url": "/shop"
                 },
                 {
-                    "text": "Biopsy tools",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Endoscopes",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Monitoring",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Otoscopes",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Oxygen concentrators",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Thermometers",
+                    "text": "Коврики напольные а. м. Volkswagen Caravelle",
                     "url": "/shop"
                 }
             ]
         },
         {
-            "name": "Equipment",
-            "list": [
-                {
-                    "text": "Blades",
+            "name": "Сантехника",
+            "list": [{
+                    "text": "Труба ПВХ ф.50/2000",
                     "url": "/shop"
                 },
                 {
-                    "text": "Education",
+                    "text": "Отвод ПВХ ф.50/90",
                     "url": "/shop"
                 },
                 {
-                    "text": "Germicidal lamps",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Infusion stands",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Lighting",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Machines",
-                    "url": "/shop"
-                },
-                {
-                    "text": "Tables and assistants",
+                    "text": "Тройник ПВХ ф100",
                     "url": "/shop"
                 }
             ]
         }
     ],
-    "popularCategories": [
-        {
+    "popularCategories": [{
             "text": "Bandages",
             "image": "/img/branch/plastercross.svg"
         },
@@ -229,30 +125,29 @@
             "image": "/img/branch/tube.svg"
         }
     ],
-    "categoryImage": [
-        {
-            "name": "Face masks",
-            "image": "/img/promotion/facemask-cat.png"
+    "categoryImage": [{
+            "name": "Товары для дома",
+            "image": "/img/promotion/cat1.png"
         },
         {
-            "name": "Uniforms",
-            "image": "/img/promotion/uniforms-cat.png"
+            "name": "Офисные концтовары",
+            "image": "/img/promotion/cat2.png"
         },
         {
-            "name": "Protective covers",
-            "image": "/img/promotion/protectcover-cat.png"
+            "name": "Строительство и ремонт",
+            "image": "/img/promotion/cat3.png"
         },
         {
-            "name": "Dental",
-            "image": "/img/promotion/dental-cat.png"
+            "name": "Бытовая химия",
+            "image": "/img/promotion/cat4.png"
         },
         {
-            "name": "Blood pressure",
-            "image": "/img/promotion/pressure-cat.png"
+            "name": "Авто",
+            "image": "/img/promotion/cat5.png"
         },
         {
-            "name": "Sugar level",
-            "image": "/img/promotion/sugarlevel-cat.png"
+            "name": "Сантехника",
+            "image": "/img/promotion/cat5.png"
         }
     ]
 }

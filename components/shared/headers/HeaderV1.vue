@@ -20,10 +20,6 @@
                         <li class="">
                             <a href="#" class="active  ps-header__item open-search" @click.prevent="handleOpenDrawer('search')"><i class="icon-magnifier"></i></a> 
                         </li>
-                        <li class="ps-header__user">
-                            <a href="#" class="active  ps-header__item"><i class="icon-user"></i></a> 
-                            <login-modal />
-                        </li>
                         <li class="">
                             <nuxt-link to="/shop/wishlist" class="ps-header__item"><i class="fa fa-heart-o"></i>
                             <span class="badge">{{ wishlistItems.length }}</span></nuxt-link>
@@ -60,12 +56,11 @@ import RenderList from '~/components/elements/commons/RenderList';
 import LanguageCurrency from '~/components/shared/headers/modules/LanguageCurrency';
 import FormSearch from '~/components/shared/headers/modules/FormSearch';
 import { getProductById } from '~/repositories/ProductRepository';
-import LoginModal from '~/components/shared/headers/modules/LoginModal';
 import CartMini from '~/components/shared/headers/modules/CartMini';
 import { mapState } from 'vuex';
 
 export default {
-    components: { Notification, RenderList, LanguageCurrency, FormSearch, LoginModal, CartMini },
+    components: { Notification, RenderList, LanguageCurrency, FormSearch, CartMini },
     data() {
         return {
             mainMenu: mainMenu,
